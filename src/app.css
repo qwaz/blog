@@ -1,87 +1,89 @@
 @import 'tailwindcss';
 
 @theme {
-  --font-sans: 'Pretendard Variable', sans-serif;
-  --font-mono: "Fira code", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	--font-sans: 'Pretendard Variable', sans-serif;
+	--font-mono:
+		'Fira code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
+		'Courier New', monospace;
 
-  --color-primary: #ef5777;
-  --color-primary-dark: #eb2a53;
+	--color-primary: #ef5777;
+	--color-primary-dark: #eb2a53;
 }
 
 body {
-  overflow-y: scroll;
+	overflow-y: scroll;
 }
 
 code {
-  font-optical-sizing: auto;
+	font-optical-sizing: auto;
 }
 
 #content {
-  @apply leading-relaxed text-gray-800;
+	@apply leading-relaxed text-gray-800;
 
-  h1 {
-    @apply text-2xl font-semibold my-3;
-  }
+	h1 {
+		@apply my-3 text-2xl font-semibold;
+	}
 
-  h2 {
-    @apply text-xl font-semibold my-3;
-  }
+	h2 {
+		@apply my-3 text-xl font-semibold;
+	}
 
-  h3 {
-    @apply text-lg font-semibold my-3;
-  }
+	h3 {
+		@apply my-3 text-lg font-semibold;
+	}
 
-  details {
-    @apply m-2 my-3;
+	details {
+		@apply m-2 my-3;
 
-    &> summary {
-      @apply cursor-pointer font-semibold;
-    }
-  }
+		& > summary {
+			@apply cursor-pointer font-semibold;
+		}
+	}
 
-  blockquote {
-    @apply border-l-4 border-gray-300 pl-4 my-2 bg-gray-100;
-  }
+	blockquote {
+		@apply my-2 border-l-4 border-gray-300 bg-gray-100 pl-4;
+	}
 
-  ul {
-    @apply list-disc list-outside my-1 ml-5;
+	ul {
+		@apply my-1 ml-5 list-outside list-disc;
 
-    &.contains-task-list {
-      list-style: none;
-      @apply ml-1;
-    }
+		&.contains-task-list {
+			list-style: none;
+			@apply ml-1;
+		}
 
-    ul {
-      list-style: circle;
-      @apply list-outside ml-10;
-    }
-  }
+		ul {
+			list-style: circle;
+			@apply ml-10 list-outside;
+		}
+	}
 
-  ol {
-    @apply list-decimal list-outside my-1 ml-5;
-  }
+	ol {
+		@apply my-1 ml-5 list-outside list-decimal;
+	}
 
-  img {
-    @apply mx-auto my-3;
-  }
+	img {
+		@apply mx-auto my-3;
+	}
 
-  pre {
-    @apply text-sm px-5 py-4 rounded-lg my-2 overflow-x-auto;
-  }
+	pre {
+		@apply my-2 overflow-x-auto rounded-lg px-5 py-4 text-sm;
+	}
 
-  *:not(pre) > code {
-    @apply text-sm bg-pink-50 text-pink-600 px-1 py-0.5 rounded;
-  }
+	*:not(pre) > code {
+		@apply rounded bg-pink-50 px-1 py-0.5 text-sm text-pink-600;
+	}
 
-  p {
-    @apply text-justify my-2;
-  }
+	p {
+		@apply my-2 text-justify;
+	}
 
-  a {
-    @apply text-blue-500;
+	a {
+		@apply text-blue-500;
 
-    &:hover {
-      @apply text-blue-700;
-    }
-  }
+		&:hover {
+			@apply text-blue-700;
+		}
+	}
 }

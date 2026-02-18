@@ -2,7 +2,7 @@ import { error, redirect } from '@sveltejs/kit';
 import { articleMapping } from './articles';
 
 export async function load({ params }) {
-	if (!articleMapping.hasOwnProperty(params.slug)) {
+	if (!Object.hasOwn(articleMapping, params.slug)) {
 		error(404, 'Archived article not found');
 	}
 

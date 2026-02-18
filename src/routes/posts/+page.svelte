@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import type { PageProps } from './$types';
 	import { reformatDateString } from '$lib/date';
 
@@ -12,11 +13,11 @@
 <h1 class="text-2xl font-bold">All Posts</h1>
 
 <ul>
-	{#each data.posts as post}
+	{#each data.posts as post (post.slug)}
 		<li class="mt-3">
 			<span class="text-gray-500">{reformatDateString(post.date, post.language)}</span>
 			<h2 class="text-xl font-semibold">
-				<a href="posts/{post.slug}" class="hover:text-blue-600">
+				<a href={resolve(`/posts/${post.slug}`)} class="hover:text-blue-600">
 					{post.title}
 				</a>
 			</h2>

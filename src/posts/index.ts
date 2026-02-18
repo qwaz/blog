@@ -19,7 +19,7 @@ const Post = z.object({
 export type Post = z.infer<typeof Post>;
 
 interface PostWithMetadata {
-	metadata: {};
+	metadata: object;
 }
 
 export async function getPosts() {
@@ -47,7 +47,7 @@ export async function getPosts() {
 		const payload = { ...file.metadata, slug, subdir };
 		const parsedPost = Post.safeParse(payload);
 		if (!parsedPost.success) {
-			const errorText = parsedPost.error.errors
+			const errorText = parsedPost.error.issues
 				.map((error) => JSON.stringify(error, null, 2))
 				.join('\n');
 			throw new Error(

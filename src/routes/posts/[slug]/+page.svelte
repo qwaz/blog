@@ -2,7 +2,7 @@
 	import { reformatDateString } from '$lib/date';
 
 	const { data } = $props();
-	const metadata = data.metadata;
+	const metadata = $derived(data.metadata);
 </script>
 
 <svelte:head>
