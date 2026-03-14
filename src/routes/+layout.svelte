@@ -29,7 +29,8 @@
 			<a href={resolve('/')} class="inline-block font-mono text-3xl font-semibold">qwaz</a>
 			<ul class="flex grow justify-end gap-6 text-lg">
 				<li class="cursor-not-allowed opacity-40">Resume</li>
-				<li><a href={resolve('/posts')}>Blog</a></li>
+				<li><a href={resolve('/posts')}>Posts</a></li>
+				<li><a href={resolve('/readings')}>Readings</a></li>
 			</ul>
 		</nav>
 

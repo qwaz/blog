@@ -44,12 +44,13 @@ const config = {
 			// after turning off this option
 			routes: {
 				include: ['/*'],
-				exclude: ['<build>', '/favicon.png', '/post-images/*', '/', '/posts', '/posts/*']
+				exclude: ['<build>', '/favicon.png', '/post-images/*', '/', '/posts', '/posts/*', '/readings', '/readings/*']
 			}
 		}),
 
 		alias: {
-			$posts: 'src/posts'
+			$posts: 'src/posts',
+			$readings: 'src/readings'
 		}
 	}
 };

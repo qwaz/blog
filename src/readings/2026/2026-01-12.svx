@@ -1,0 +1,85 @@
+---
+date: '2026-01-12'
+intro: >-
+  연말이라 휴가 쓰고 이래저래 하다보니 오랜만에 찾아온 긱뉴스/해커뉴스 요약입니다 (9월초~9월말)
+readings:
+  - title: How to Use Claude Code Subagents to Parallelize Development
+    link: https://zachwills.net/how-to-use-claude-code-subagents-to-parallelize-development/
+    comment: 요즘 AI를 쓰는 생산성 향상 방법이 핫한데요, Claude의 sub-agent 기능을 이용하는 방식을 소개합니다. 프롬프트에 참고할 만한 내용이 많았습니다.
+
+  - title: 'V8과 WebAssembly: 현대 자바스크립트 엔진의 구조와 성능 최적화'
+    link: https://news.hada.io/topic?id=23114
+    comment: JS 엔진에 들어간 엔지니어링 차력쇼를 구경할 수 있습니다.
+
+  - title: React Won by Default – And It's Killing Frontend Innovation
+    link: https://www.lorenstew.art/blog/react-won-by-default/
+    comment: 기술적인 내용도 재밌지만 저는 그보다 언제 인더스트리의 default를 택해야 하는지, 언제 default가 아닌 선택을 해야 하는지에 대한 가이드가 맘에 들었습니다.
+
+  - title: Asus-ROG-Aml-Deep-Dive
+    link: https://github.com/Zephkek/Asus-ROG-Aml-Deep-Dive?tab=readme-ov-file
+    comment: ASUS ROG 시리즈의 유명한 드라이버 문제 하나를 바이너리 리버싱까지 해가며 원인을 파악하는 포스트모템이었습니다.
+
+  - title: 생물학을 거스르는 개미 – 다른 종으로 부화하는 알을 낳는 여왕개미
+    link: https://news.hada.io/topic?id=23186
+    comment: 개미 A 종의 여왕개미가 개미 B 종을 복제할 수 있는 사례가 발견되었다고 합니다. 너무 신기한 생물학 뉴스라 가져왔습니다.
+
+  - title: '스타트업의 보이지 않는 살인자: 창업자 역할 경직화'
+    link: https://news.hada.io/topic?id=23206
+    comment: 팀이 커지면서 창업자가 어떻게 자신의 역할을 계속해서 재발명해야 하는가에 대한 글입니다. 꼭 창업자가 아니더라도 팀 리더라면 읽고 생각해 볼만한 글이라고 생각합니다.
+
+  - title: 'In defence of swap: common misconceptions'
+    link: https://chrisdown.name/2018/01/02/in-defence-of-swap.html
+    comment: 모던 커널에서는 스왑이 어떤 일들을 도와주는지 교양 삼아 한 번 쯤 읽어볼만 합니다.
+
+  - title: 전문가들로 가득한 방에서 리드하는 방법
+    link: https://news.hada.io/topic?id=23286
+    comment: 리더가 모든 분야에서 가장 전문가가 될 필요도 없고, 사실 될 수도 없는데, 그럼 리더는 무엇을 해야 하는가에 대한 좋은 정리 글이었습니다.
+
+  - title: Getting AI to Work in Complex Codebases
+    link: https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md
+    comment: AI 에이전트를 쓸 때 Research/Plan/Implementation 세 단계로 나눠서 어떻게 context engineering을 해야 하는가에 대해 소개하고 있습니다.
+
+  - title: Quicksort explained IKEA-style
+    link: https://idea-instructions.com/quick-sort/
+    comment: IKEA 설명서 스타일의 퀵소트 설명입니다.
+
+  - title: Investigating a forged PDF
+    link: https://mjg59.dreamwidth.org/73317.html
+    comment: 에이전시에서 보증금은 집주인한테 받아야 된다고 PDF 위조하다가 걸린 걸 각종 도구를 이용해 증거를 잡아내는 스토리입니다.
+
+  - title: Firefox의 Rust 기반 고속 UDP I/O
+    link: https://news.hada.io/topic?id=23318
+    comment: 현대 OS에서 UDP를 최적화 하려면 어떤 시스템 콜을 써야 하는가에 대한 교양글입니다.
+
+  - title: 'Athlon 64: How AMD turned the tables on Intel'
+    link: https://dfarq.homeip.net/athlon-64-how-amd-turned-the-tables-on-intel/
+    comment: 할아버지가 들려주는 옛날얘기 느낌으로 Itanium vs AMD64가 싸우던 시절 얘기를 들을 수 있습니다.
+
+  - title: 'Moondream 3 Preview: Frontier-level reasoning at a blazing speed'
+    link: https://moondream.ai/blog/moondream-3-preview
+    comment: 첨 들어보는 모델인데 사이즈에 비해 비전 성능이 아주 좋아 보여서 신기했습니다.
+
+  - title: Compiling Python to Run Anywhere
+    link: https://blog.codingconfessions.com/p/compiling-python-to-run-anywhere
+    comment: 파이썬을 IL로 내린 다음 C++로 변환해서 어디서나 빠르게 돌리겠다는 글입니다.
+
+  - title: The AI coding trap
+    link: https://chrisloy.dev/post/2025/09/28/the-ai-coding-trap
+    comment: AI로 코딩할 때 대충 바이브 코딩 하면 빠르게 풀 수 있지만 장기적으로는 best practice들을 잘 활용해야 좋다는 이야기를 합니다. 장/단기 트레이드오프에 대해 조심스러운 접근을 취합니다.
+
+  - title: How to Detect, Track, and Identify Basketball Players with Computer Vision
+    link: https://blog.roboflow.com/identify-basketball-players/
+    comment: 컴퓨터 비전으로 농구 선수를 추적하는 방법을 설명합니다. 취미 프로젝트로 하면 되게 재밌겠다는 생각이 들었습니다.
+
+  - title: 나를 만들어준 소프트웨어 에세이들
+    link: https://news.hada.io/topic?id=23406
+    comment: 소프트웨어 관련 에세이들을 짧게 요약하고 소개하는 글입니다. 교양삼아 한 번 쯤 원문들 읽어볼만해서 북마크 느낌으로 추천합니다.
+
+  - title: Stop Avoiding Politics
+    link: https://terriblesoftware.org/2025/10/01/stop-avoiding-politics/
+    comment: 모든 사내 정치가 나쁜 것이 아니라 나쁜 정치가 나쁜 것이며, Senior급 이상으로 갈수록 진짜 중요한 능력인 것 같습니다.
+
+  - title: TigerBeetle은 세계에서 가장 흥미로운 데이터베이스임
+    link: https://news.hada.io/topic?id=23405
+    comment: 모-던 분산 시스템에 쓰이는 기술 찍먹해서 소개해 주는 부분이 좋았습니다.
+---

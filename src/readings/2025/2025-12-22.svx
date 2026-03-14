@@ -1,0 +1,49 @@
+---
+date: '2025-12-22'
+intro: >-
+  이번주도 돌아온 긱뉴스/해커뉴스 (8월말~9월초)
+readings:
+  - title: 최고의 엔지니어를 고집하지 마세요
+    link: https://news.hada.io/topic?id=22876
+    comment: 채용 과정에서 좋은 인재를 어떻게 끌어들일 것인가에 대한 글입니다. 제 takeaway는 회사/팀 입장에서도 지원자에게 어필하기 위해 어떻게 차별화를 할 것인지 고민해야 한다였습니다.
+
+  - title: AI 제품 전략 수립 방법
+    link: https://news.hada.io/topic?id=22985
+    comment: LLM 원가 비용이 생각보다 많이 비싸서 이걸 어떻게 비즈니스 모델에 녹여내서 소화하는가가 프로덕트 포지션 확립에 중요한 문제더라구요. AI 다루고 있는 팀에서 다들 고민하는 문제인 듯.
+
+  - title: 잘하는 것만으로는 충분하지 않음
+    link: https://news.hada.io/topic?id=22985
+    comment: 회사에서 "의미 있는 일을 실제로 일어나게 하는 것"을 위해서 어떤 방식으로 노력해야 하는지를 정리해서 보여줍니다. 많이 다뤄지는 주제이긴 하지만 좋은 요약글이라고 생각합니다.
+
+  - title: E-Paper Display Reaches the Realm of LCD Screens
+    link: https://news.hada.io/topic?id=23009
+    comment: 75 Hz 주사율의 전자잉크가 나왔다고 합니다. 전자책 붐은 오는가?
+
+  - title: Blocky Planet — Making Minecraft Spherical
+    link: https://www.bowerbyte.com/posts/blocky-planet/
+    comment: 네모난 세상을 구형으로 만들 때 어떤 문제를 해결해야 하는가를 다룬 글입니다. 문제-해결법을 스크린샷과 데모를 통해 설명하는 과정이 굉장히 재밌게 잘 쓴 글이었어요.
+
+  - title: Python has had async for 10 years -- why isn't it more popular?
+    link: https://tonybaloney.github.io/posts/why-isnt-python-async-more-popular.html
+    comment: 파이썬 async에 대한 비판글입니다.
+
+  - title: What If OpenDocument Used SQLite?
+    link: https://www.sqlite.org/affcase1.html
+    comment: XML 기반의 ODP 포맷을 SQLite로 바꾸면 어떻게 될까에 대한 사고실험입니다. 그래도 SQL 만한게 없지 않을까 생각하게 하는 글이었습니다.
+
+  - title: Stop writing CLI validation. Parse it right the first time.
+    link: https://hackers.pub/@hongminhee/2025/stop-writing-cli-validation-parse-it-right-the-first-time
+    comment: 홍민희님의 새 CLI 파서 라이브러리 소개입니다. Dependent option, mutually exclusive option 등을 파서 컴비네이터 기반 설계를 활용해서 예쁘게 표현할 수 있는 Typescript 라이브러리입니다.
+
+  - title: 24년 된 게임큐브용 동물의 숲, 메모리 해킹으로 대화 시스템을 LLM으로 교체하다
+    link: https://news.hada.io/topic?id=23016
+    comment: 첫 인상은 이게 된다고?였고 다음 인상은 이런 거 할 시간이 있다는 게 부러웠습니다.
+
+  - title: Defeating Nondeterminism in LLM Inference
+    link: https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/
+    comment: LLM의 nondeterminism이 왜 발생하는지에 대해서, 그리고 LLM의 내부 구조에 대해서 알려주는 훌륭한 글이었습니다.
+
+  - title: Behind The Scenes of Bun Install
+    link: https://bun.com/blog/behind-the-scenes-of-bun-install
+    comment: npm, yarn, pnpm은 JS 엔진 위에서 돌아가는데, bun은 zig로 시스템 레벨에서 짜면서 시스템 콜 횟수를 최적화 해둬서 패키지 인스톨이 훨씬 빠르다는 내용입니다.
+---

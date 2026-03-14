@@ -1,0 +1,50 @@
+---
+date: '2025-12-15'
+intro: >-
+  긱뉴스/해커뉴스 바빠서 못 읽다 정신차리니 네 달 밀려서 요즘 자기 전에 읽으며 열심히 따라 잡는 중입니다,,
+  이번 주에 읽은 글들 중에 마음에 들었던 글들을 소개해 보려고 합니다.
+readings:
+  - title: Python performance myths and fairy tales
+    link: https://lwn.net/Articles/1031707/
+    comment: 파이썬의 inherently dynamic한 내부 동작들을 소개하며 이런 동작이 파이썬 최적화에 어떤 어려움을 가져다 주는지를 설명합니다
+
+  - title: Cognitive load is what matters
+    link: https://github.com/zakirullin/cognitive-load?tab=readme-ov-file
+    comment: 올라온 날 해커뉴스 압도적 1위를 찍은 글입니다. 읽고 이해하기 쉬운 코드란 무엇인가를 인지부하와 엮어서 설명합니다. 한국어 버전도 있습니다.
+
+  - title: 'Instead of "auth", we should say "permissions" and "login"'
+    link: https://ntietz.com/blog/lets-say-instead-of-auth/
+    comment: 사실 제목만 읽으면 됩니다. authentication authorization 쓸 때마다 한 3초 생각해야 되는데 쉬운 용어를 써서 인지부하를 줄이자는 주장입니다.
+
+  - title: 모든 엔지니어에게 세일즈 콜을 강제했더니 2주 만에 플랫폼이 완전히 재작성됨
+    link: https://news.hada.io/topic?id=22679
+    comment: 고객의 요청과 팀의 이해를 어떻게 일치시켜야 하는가 고민이 있는데, 다른 조직에서도 비슷한 고민을 하는구나 하면서 읽었던 글입니다. 댓글에서 PM의 역할에 대해 논의하는 것도 배우고 생각할 부분이 많았습니다.
+
+  - title: 'Rust in Android: move fast and fix things'
+    link: https://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html
+    comment: 안드로이드에서 Rust 사용이 계속 늘어나고 있는데, Rust 썼더니 코드 리뷰 시간도 줄고, 롤백도 줄고, 버그도 줄었다더라~라는 글입니다.
+
+  - title: Cloudflare outage on December 5, 2025
+    link: https://blog.cloudflare.com/5-december-2025-outage/
+    comment: 클플 장애 포스트모템입니다. React2shell 관련 방어 작업을 하면서 특정 테스트용 기능을 껐더니 기존에 트리거되지 않았던 코드 패스가 트리거 되면서 일어난 난장판이라고 합니다. Null safety 관련 이슈로 Lua로 짠 FL1에서만 터지고 Rust로 짠 FL2에서는 안 터졌다고 합니다.
+
+  - title: Academic Arbitrage in the LLM Era
+    link: https://c.mov/academic-arbitrage/
+    comment: LLM 모델이 발전하면서 대충 기존 시스템에 LLM 붙여서 SOTA 찍기로 논문을 출간할 수 있는 세상이 되어 버렸는데, 논문 저자와 리뷰어가 어떤 비판적인 관점을 가지고 논문을 읽어야 하는지에 대한 주장입니다.
+
+  - title: 'It’s Not Wrong that "🤦🏼‍♂️".length == 7'
+    link: https://hsivonen.fi/string-length/
+    comment: 두유노유니코드?
+
+  - title: What makes Claude Code so damn good (and how to recreate that magic in your agent)!?
+    link: https://minusx.ai/blog/decoding-claude-code/
+    comment: Claude Code 프롬프트 RE + 좋은 에이전트를 만들기 위한 교훈
+
+  - title: Is it possible to allow sideloading *and* keep users safe?
+    link: https://minusx.ai/blog/decoding-claude-code/
+    comment: 안드로이드가 개발자 등록 정책을 시행하면서 반발이 많은데, 사용자에게 뭐든 할 수 있는 권한 주기 대 사기에 취약한 사회 계층을 보호하기 사이에서 어느 쪽도 만족스럽지 않은 상황에 대한 성토입니다.
+
+  - title: Agile is about Adaptability not Speed
+    link: https://medium.com/@ss-tech/agile-is-about-adaptability-not-speed-d629d8014e6b
+    comment: Agile의 핵심을 Rapid Feedback, Contained Failure, Directional Flexibility로 요약하는데, 특히 인상 깊었던 부분은 "agile 하려면 코딩이랑 설계 더 잘해야 됨" 부분이었습니다.
+---
