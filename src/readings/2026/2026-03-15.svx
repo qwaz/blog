@@ -152,4 +152,8 @@ readings:
   - title: 영화 논리에 갇혀 있지 않은가?
     link: https://news.hada.io/topic?id=24456
     comment: "'영화 논리'라는 표현이 썩 와닿지는 않는데, '문제를 말하기 어렵다면, 그 사실을 말하기' 부분은 좋았습니다. 별개로 Good Will Hunting 재밌습니다. 이 글 읽으니까 다시 보고 싶네요."
+
+  - title: 코스피 5000의 꿈 뒤, 한국 기업의 무장해제
+    link: https://www.sisain.co.kr/news/articleView.html?idxno=57069
+    comment: 한국의 자사주 시스템과 '인적 분할의 마술'이 무엇인지 경제학적으로 배워가는 게 많았던 글입니다.
 ---
