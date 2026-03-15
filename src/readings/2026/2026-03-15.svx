@@ -1,0 +1,155 @@
+---
+date: '2026-03-15'
+intro: >-
+  2월에 이직하고 이래저래 생활 및 업무 루틴이 바뀌었는데, 이제 새 루틴에도 적응하고 한숨 돌릴 수 있게 된 것 같아서 재밌게 읽은 아티클 소개하기 다시 시작해 보려고 합니다.
+  아직도 주로 읽는 글들이 작년 11월에 머물러 있는데, 열심히 따라잡아 보려는 마음은 있지만 요즘 체스가 너무 재밌어서 체스하느라 독서량이 떨어진 상태입니다...
+  정리해 놓고 보니 이번에는 과거 회상이나 90년대 IT 업계 관련 글이 평소보다 눈에 띄네요.
+readings:
+  - title: '[Book Review] 실리콘밸리 스타트업 플레이북'
+    link: https://blogbyash.com/ash-read-book/book-the-great-ceo-within/
+    comment: 할 일, 아젠다, 합의, 문서화, 목표 설정 등 책에 있는 내용을 짧게 리뷰해 주는 포스트였는데, 평소 중요하다고 생각하던 내용들이나 고민하던 내용들이 보여서 책 내용이 궁금해지는 좋은 소개 포스트였습니다.
+
+  - title: Why Busy Beaver Hunters Fear the Antihydra
+    link: https://benbrubaker.com/why-busy-beaver-hunters-fear-the-antihydra/
+    comment: 'Busy Beaver Number라는 수학적 컨셉에 대해서 소개해 주는 글입니다. 튜링머신과 콜라츠 추측이 만나는 지점이 흥미로웠습니다. 콜라츠 추측은 올림피아드 열심히 하던 시절 koistudy [3n+1 문제](https://koistudy.net/prob_page?NO=231) 풀면서 삽질하던 추억이 떠올라서 볼 때마다 정겨운 마음이 듭니다.'
+
+  - title: Evaluating and mitigating the growing risk of LLM-discovered 0-days
+    link: https://red.anthropic.com/2026/zero-days/
+    comment: 이제 진짜 AI가 웬만한 인간보다 해킹 잘한다는 얘기를 최근 몇 달 하고 있는데, 지금까지는 티오리를 포함해 스타트업이 많았는데 이번에는 Anthropic 버전입니다. GhostScript, OpenSC, CGIF에서 찾은 0-day를 소개합니다.
+
+  - title: Building a C compiler with a team of parallel Claudes
+    link: https://www.anthropic.com/engineering/building-c-compiler
+    comment: C 컴파일러를 from scratch로 LLM만 써서 할 수 있는가?에 대한 실험입니다. 저는 AI가 기존의 예산과 시간으로 할 수 없던 일들을 어떻게 가능하게 하는지, 그럼에도 불구하고 지금의 한계는 무엇인지 등에 대해서 얻어갈 교훈들이 많다고 생각하는데, 커뮤니티 반응은 "그래서 왜 이 결과물이 좋은 C 컴파일러가 아닌지" 찾아내는 쪽의 목소리가 너무 큰 것 같아서 아쉬웠습니다.
+
+  - title: '초기 창업자가 알아야 할 보상(Comp) 전략: 깨도 되는 규칙과 지켜야 할 규칙'
+    link: https://news.hada.io/topic?id=24039
+    comment: 저는 스톡을 주는 게 동기부여가 잘 되는 사람인 것 같은데, 주변에서는 스톡 줄거면 돈으로 주는게 낫다는 사람도 많이 보이고, 제가 지금까지 겪은 여러 다른 스타일의 사람들을 떠올리며 읽었습니다.
+
+  - title: 'Board: The first ever face-to-face game console designed to bring everyone together'
+    link: https://board.fun/
+    comment: 태블릿이랑 물리 매체를 결합해서 연동하는 콘솔 개념인데, 아이디어와 구현은 너무 신선하다고 생각하고, 충분한 놀거리 확보와 market share를 확보할 수 있을까 부분은 살짝 걱정입니다. 친구가 더 많거나 애가 있거나 하면 궁금해서 하나쯤 사봤을지도?
+
+  - title: The cryptography behind electronic passports
+    link: https://blog.trailofbits.com/2025/10/31/the-cryptography-behind-electronic-passports/
+    comment: Trail of Bits가 말아주는 전자여권의 동작 원리 101
+
+  - title: '역전파는 누수되는 추상화다 (2016)'
+    link: https://news.hada.io/topic?id=24108
+    comment: 학부 수업 때 Python 써서 미적분 짜던 추억이 떠올라서 재밌었습니다. 요즘은 라이브러리 써서 직접 미적분 할 일이 많이 없긴 한데 그래도 손으로 한 번 짜 보는 게 기억에 오래 남는 것 같네요.
+
+  - title: The profitable startup
+    link: https://linear.app/now/the-profitable-startup
+    comment: Linear가 우리는 투자금 태우면서 달리는게 아니라 흑자 내면서 운영했다고 자랑(?) 하는 글인데 한 번쯤 읽어볼 만한 것 같습니다.
+
+  - title: Is Your Bluetooth Chip Leaking Secrets via RF Signals?
+    link: https://eprint.iacr.org/2025/559
+    comment: 특정 블루투스 하드웨어 AES 가속기에 사용되는 암호화 키를 1미터 거리에서 RF 시그널 사이드채널만 이용해서 복구할 수 있다고 합니다.
+
+  - title: '저작권 등록제도의 함정: 룰렛 저작권 도용 사건의 힘빠지는 전말'
+    link: https://lazygyu.net/blog/stolen-copyright
+    comment: 요즘 추첨할 때 자주 보이는 공 굴러가는 프로그램이 있던데, 개발자가 이 블로그 운영하는 한국 분이시더라구요. 해당 프로그램에 대해 저작권 도용을 겪었고, 고구마 결말이었지만 11월 업데이트에서 변호사 분을 통해 사건 진행을 준비 중이라고 하시며 글이 끝납니다. 응원합니다.
+
+  - title: 1988년 오늘, Morris 웜이 24시간 만에 인터넷의 10%를 감염시켰다
+    link: https://news.hada.io/topic?id=24156
+    comment: 보안이라는 개념이 잘 없던 무법의 시대 썰입니다.
+
+  - title: 스틱 피겨들이 싸우던 시절
+    link: https://news.hada.io/topic?id=24148
+    comment: 저는 프로그래밍을 Flash로 시작해서, 그 당시 추억이 떠오르는 썰 듣는 것 좋아합니다. 요즘은 Roblox나 마인크래프트가 코딩 인재 양성에 큰 역할을 한다고 들었는데 사실인지 궁금합니다.
+
+  - title: Why we migrated from Python to Node.js
+    link: https://blog.yakkomajuri.com/blog/python-to-node
+    comment: X에도 몇 번 썼지만 파이썬 async 너무 어렵습니다. 해당 글은 Python 보다는 Django 환경에만 해당하는 문제도 좀 보이긴 합니다.
+
+  - title: 왜 똑똑한 사람들은 더 행복하지 않을까?
+    link: https://news.hada.io/topic?id=24183
+    comment: 글 내용이 막 인상 깊은 부분이 있던 건 아닌데 인생에 있어서 답이 있는 문제와 없는 문제, 기술적 진보와 행복 등 흥미로운 생각할 거리를 던져 주는 게 맘에 들었습니다. 저는 요즘 체스를 열심히 하는데, 인성 파탄자 하지만 체스는 강했죠로 유명한 사람들 얘기도 나와서 그 부분도 눈에 띄었습니다.
+
+  - title: Someone’s Been Messing With My Subnormals!
+    link: https://moyix.blogspot.com/2022/09/someones-been-messing-with-my-subnormals.html?m=1
+    comment: moyix 교수님이 말아주는 '대체 어떤 라이브러리가 내 fastmath flag를 켰을까' 탐사 썰입니다. Dry-run을 해도 setup.py를 실행시키는 Python의 footgun이 인상깊었습니다.
+
+  - title: How we rebuilt Next.js with AI in one week
+    link: https://blog.cloudflare.com/vinext/
+    comment: 요즘 많이 보이는 AI 써서 X를 일주일만에 재구현하기 글의 Cloudflare 버전입니다. AI가 몇 달 만에 소프트웨어 개발의 근간을 상당히 바꿔버리고 있는데, 그런 소식 따라 잡는 용도로 한 번 읽어볼 만합니다.
+
+  - title: Couldn't really resist the urge to say something about Anthropic Claude Code Security.
+    link: https://www.linkedin.com/posts/fabio-gritti-359428297_couldnt-really-resist-the-urge-to-say-something-activity-7431785697986097152-SnKj/
+    comment: 보안이 'AI 딸깍'으로 부족한 이유에 대해서, 그리고 딸깍을 넘어서 무엇이 필요한가에 대해 논의하는 글입니다. 버그 같지만 실제로는 버그가 아닌 AI 기반 리포트가 점점 많아지고 있는데, 이런 검증 루프를 어떻게 설계할 것인가가 참 어려운 문제 같습니다.
+
+  - title: 신입 프린시펄 엔지니어를 위한 조언
+    link: https://news.hada.io/topic?id=24268
+    comment: 이전 직장에서는 이런 것들을 훨씬 많이 신경 썼어야 했는데, 이직하면서 당분간은 내 일에만 집중하면 돼서 일정은 바쁘지만 마음이 편한 시기를 보내고 있습니다. 우리 팀 프린시펄들 화이팅입니다.
+
+  - title: 'AI 시대, TypeScript의 부상: 수석 설계자 Anders Hejlsberg의 통찰'
+    link: https://news.hada.io/topic?id=24265
+    comment: 요즘 팀에서도 TypeScript 쓰는데 TypeScript가 진짜 AI로 짜기 나쁘지 않은 언어 같다고 생각합니다. 근데 언어만 고르면 되는게 아니고 라이브러리랑 생태계도 잘 골라야 하긴 하더라구요.
+
+  - title: 예상치 못한 존재들이 ‘사람’으로 간주되는 사례들
+    link: https://news.hada.io/topic?id=24285
+    comment: "'법인'이라는 단어에 사람 인자를 쓰신다는 것을 알고 계시나요? 선박, 강, 신이 법인이 될 수 있는 세계의 흥미로운 법들을 소개합니다."
+
+  - title: Welcome to iammarkzuckerg.com
+    link: https://iammarkzuckerberg.com/
+    comment: 변호사 마크 주커버그 씨의 웹사이트이자, 다른 사람들이 이 분을 동명이인으로 착각해 겪은 흥미로운 사례 모음집입니다.
+
+  - title: FFmpeg, 구글에 “자금 지원하든가 버그 제보를 중단하라” 요구
+    link: https://news.hada.io/topic?id=24307
+    comment: 양쪽 입장이 다 이해가 가는 한 편, 저는 기업들이 오픈소스에 돈을 더 쓸 필요가 있다고 생각하지만 그걸 강하게 유도할 수 있는 좋은 방법이 무엇인지는 잘 모르겠습니다. 요즘은 일정 규모 이상의 회사에서 사용하려면 돈을 내야 한다는 대안 라이선스들이 좀 보이기도 하더라구요.
+
+  - title: GLP-1 Drugs Linked to Dramatically Lower Death Rates in Colon Cancer Patients
+    link: https://today.ucsd.edu/story/glp-1-drugs-linked-to-dramatically-lower-death-rates-in-colon-cancer-patients
+    comment: GLP-1은 신인가?
+
+  - title: 100+ Kernel Bugs in 30 Days
+    link: https://ydinkin.substack.com/p/200-kernel-bugs-in-30-days
+    comment: 윈도 드라이버를 잔뜩 모아서 LLM에 잔뜩 먹여서 버그를 잔뜩 찾았다는 글입니다.
+
+  - title: Partnering with Mozilla to improve Firefox’s security
+    link: https://www.anthropic.com/news/mozilla-firefox-security
+    comment: Anthropic에서 이번에는 Firefox를 타게팅해 22개의 브라우저 버그를 찾았다는 소식입니다. 다음엔 무슨 소식일까 기대도 되는 한 편 요즘 진짜 AI 밥그릇 문제가 보안 엔지니어 코앞까지 다가온 것 같아 두렵습니다.
+
+  - title: A GitHub Issue Title Compromised 4,000 Developer Machines
+    link: https://grith.ai/blog/clinejection-when-your-ai-tool-installs-another
+    comment: GitHub 이슈 제목을 통한 프롬프트 인젝션으로 시작해, 캐시 포이즈닝을 통해 cline의 npm 배포 토큰을 탈취하는 익스플로잇 체인 분석 글입니다. GitHub 캐시 포이즈닝이 처음 알게 된 어택 벡터라 흥미로웠습니다.
+
+  - title: Statement from Dario Amodei on our discussions with the Department of War
+    link: https://www.anthropic.com/news/statement-department-of-war
+    comment: 국방부가 Anthropic이랑 계약을 끊고 OpenAI랑 계약을 맺었다더라!의 그 글입니다. Anthropic이 평소에 내는 리포트 보면 AI Safety에 있어서는 지금 회사들 중에서 가장 잘하고 있는 회사라는 생각이 드는데, 민간인 대량사찰과 완전 자동화된 무기 시스템은 지금 AI를 활용하기에는 법과 기술이 아직 따라오지 못했다는 확실한 레드라인을 제시해 준 부분이 믿음직했습니다. '우리 지금까지 미국을 위해서 이렇게나 잘해왔는데 너네 쪼잔하다 진짜'라고 말하는 듯해서 좀 짠했습니다. 해당 성명 발표 이후 Anthropic 회사 앞에 시민들의 지지 메시지와 그라피티가 올라온 영상도 봤었는데, 저도 참 응원하고 싶은 태도와 시민 의식이라고 느꼈습니다.
+
+  - title: “내 마음은 극우인데, 조금 혼란스러워” 10대 우경화의 진실은?
+    link: https://www.sisain.co.kr/news/articleView.html?idxno=57176
+    comment: 저 학창시절에도 재미로 일베밈을 쓰는 학우들이 많았는데요, 아직도 비슷한 현상이 있는 것 같고 실제로 청년 우경화에도 알게 모르게 영향을 미치는 것 같아서 걱정도 되고, 그렇지만 실제로 진지한 토론의 장을 원하는 학생들도 많다고 하니 조금씩 더 나은 방향으로 바뀔 수 있을 것 같은 희망도 보이고 그랬습니다.
+
+  - title: 민주당 1인1표제의 미래··· 국민의힘을 보라?
+    link: https://www.sisain.co.kr/news/articleView.html?idxno=57306
+    comment: '이번 기회에 대의원제에 대해 처음 알게 되었고, 정치학의 ''의사결정 구조''도 흥미로운 주제라고 생각했습니다. 기사 발췌: "대의민주주의 체제에서, 모든 국민이 1표를 갖는다는 원칙에 더해 정치 과정에 더 깊숙이 관여하고 사회적 의제들이 성숙할 수 있도록 심어둔 제도가 정당이다. 나라의 모든 일을 국민투표로 정할 수는 없다. 그 결과가 꼭 바람직하지도 않다. 투표로 뭐든지 국민에게 직접 묻는다면 정치가 존재할 이유도 없다. 정당도 마찬가지다. 당원들을 대신해서 고민하고, 숙의하고, 책임감 있게 의사결정에 참여하는 조직과 체계가 대의원제이다."'
+
+  - title: “목숨을 거는 일” 84년 전 역사와 현재를 잇는 기억과 고통
+    link: https://www.sisain.co.kr/news/articleView.html?idxno=57457
+    comment: '기사 발췌: "84년 전 해저 탄광인 조세이 탄광이 무너져 조선인 136명을 포함해 183명이 숨졌다. 2026년 2월 다국적 잠수사들이 자원봉사로 유골 수습에 나섰는데, 그중 한 명이 돌아오지 못했다."'
+
+  - title: 트럼프 관세 기관총, 다시 세계경제 정조준
+    link: https://www.sisain.co.kr/news/articleView.html?idxno=57448
+    comment: "'아니 트럼프 그렇게 관세 매기는 거 합법임?'에서 트럼프가 어떤 법기술을 구사하고 있는지를 정리해서 알려주는 글입니다."
+
+  - title: When Using AI Leads to “Brain Fry”
+    link: https://hbr.org/2026/03/when-using-ai-leads-to-brain-fry
+    comment: AI가 생산성을 올려주긴 하지만, 사람을 노동에서 해방시킬 것이라는 초기의 기대와는 달리, 소프트웨어 엔지니어링에서는 유의하지 않으면 스스로를 더 빨리, 더 많이 일하는 방식으로 만들어 부작용이 생기기도 합니다. 본 기사에서는 AI를 활용할 때 번아웃과 별도로 발생하는 정신적 피로감에 대한 연구 사례를 소개합니다. 핵심 내용과는 별개로 중간에 잠깐 'AI 툴을 동시에 굴릴 때 평균적으로 세 개까지는 생산성이 올라가더라'라는 결과가 나오는 걸 보고 저는 아직 멀었구나 생각했습니다. (복잡한 거 할 땐 1개, 쉬운거 할 땐 2개까지 되는 것 같습니다)
+
+  - title: 'Running Your Own ISP at Home Part.5 - How to Get a North Korea / Antarctica VPS (New Concept: Light Up the Globe)'
+    link: https://blog.lyc8503.net/en/post/asn-5-worldwide-servers/
+    comment: 윤리적으로 의문이 드는 내용이 있기는 한데, 북한 IP로 VPN을 한다는 발상 자체나 GeoIP의 동작 원리 등은 흥미로웠습니다.
+
+  - title: 'Heretic: Fully automatic censorship removal for language models'
+    link: https://github.com/p-e-w/heretic
+    comment: 아주 자세히 살펴보진 않았는데, 오픈소스 모델에서 Safety Alignment를 자동으로 제거해 주는 툴이라고 해서 흥미로웠습니다.
+
+  - title: 퀘이크 실행 파일(quake.exe)은 어떻게 TCP/IP 스택을 갖추게 되었나
+    link: https://news.hada.io/topic?id=24465
+    comment: 90년대 게임 개발자 차력쇼 구경하세요
+
+  - title: 영화 논리에 갇혀 있지 않은가?
+    link: https://news.hada.io/topic?id=24456
+    comment: "'영화 논리'라는 표현이 썩 와닿지는 않는데, '문제를 말하기 어렵다면, 그 사실을 말하기' 부분은 좋았습니다. 별개로 Good Will Hunting 재밌습니다. 이 글 읽으니까 다시 보고 싶네요."
+---
