@@ -87,3 +87,13 @@ code {
 		}
 	}
 }
+
+.readings-list {
+	a {
+		@apply text-blue-500;
+
+		&:hover {
+			@apply text-blue-700;
+		}
+	}
+}

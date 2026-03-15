@@ -1,3 +1,4 @@
+import { marked } from 'marked';
 import { z } from 'zod';
 
 const ReadingItem = z
@@ -7,7 +8,10 @@ const ReadingItem = z
 		comment: z.string()
 	})
 	.strict();
-export type ReadingItem = z.infer<typeof ReadingItem>;
+
+export interface ReadingItem extends z.infer<typeof ReadingItem> {
+	commentHtml: string;
+}
 
 const ReadingFrontMatter = z
 	.object({
@@ -22,7 +26,10 @@ const ReadingPost = ReadingFrontMatter.extend({
 	slug: z.string(),
 	subdir: z.string()
 });
-export type ReadingPost = z.infer<typeof ReadingPost>;
+
+export interface ReadingPost extends Omit<z.infer<typeof ReadingPost>, 'readings'> {
+	readings: ReadingItem[];
+}
 
 interface FileWithMetadata {
 	metadata: object;
@@ -70,7 +77,13 @@ export async function getReadings() {
 				`Error while parsing ${path}\nData:\n${JSON.stringify(payload, null, 2)}\nErrors:\n${errorText}`
 			);
 		}
-		readings.push(parsedReading.data);
+		const readingItems: ReadingItem[] = await Promise.all(
+			parsedReading.data.readings.map(async (item) => ({
+				...item,
+				commentHtml: await marked.parseInline(item.comment)
+			}))
+		);
+		readings.push({ ...parsedReading.data, readings: readingItems });
 	}
 
 	readings = readings.sort(
