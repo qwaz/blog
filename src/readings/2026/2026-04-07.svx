@@ -1,0 +1,124 @@
+---
+date: '2026-04-07'
+intro: >-
+  블로그를 업데이트 하고 기사 읽기 다시 열심히 해야지 생각했는데, 생각보다 우선순위가 잘 안 올라가네요.
+  매 주 쓰려는 생각만 하고 3주만에 찾아왔습니다. 그 사이에 인생 첫 PT를 시작했고, 업무도 열심히 하고 있다는 변명을 해보겠습니다.
+  날씨가 좋아서 꽃놀이도 다녀왔습니다.
+
+readings:
+  - title: The Big LLM Architecture Comparison
+    link: https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison
+    comment: Multi-Head Latent Attention (MLA), Mixture-of-Experts (MoE), QK-Norm, Sliding Window Attention 등 현대 트랜스포머 모델들에 들어간 구현 기법들을 설명하면서 공개 가중치 모델들을 하나씩 살펴봅니다. 훑어보면 재밌습니다.
+
+  - title: Introducing Meta Segment Anything Model 3 (SAM 3)
+    link: https://ai.meta.com/research/sam3/
+    comment: Meta의 Segment Anything 버전 3가 나왔다고 합니다. 데모에 펭귄 움직이는게 귀엽습니다.
+
+  - title: The code and open-source tools I used to produce a science fiction anthology
+    link: https://compellingsciencefiction.com/posts/the-code-and-open-source-tools-i-used-to-produce-a-science-fiction-anthology.html
+    comment: 2024년에 출간된 SF 매거진들 중 참신한 컨셉을 가진 근미래 SF 단편을 모아, git과 LaTeX를 이용해 스스로 편집자로 일하며 앤솔로지 형태로 출판하는 여정을 다루는 블로그입니다. 기술적인 내용도 흥미로웠지만 어떻게 라이센스를 따는지 같은 내용도 궁금한데, 아쉽게도 그건 글에 포함되어 있지 않더라구요. 그렉 이건 등 제가 좋아하는 작가도 포함되어 있고 평도 좋아서 나중에 책도 구매해 읽어 볼 예정입니다.
+
+  - title: How many video games include a marriage proposal? At least one!
+    link: https://32bits.substack.com/p/under-the-microscope-ncaa-basketball
+    comment: 비디오 게임 이스터에그로 청혼을 하는 훈훈한 이야기입니다.
+
+  - title: The Surprising Benefits of Giving Up
+    link: https://nautil.us/the-surprising-benefits-of-giving-up-1248362
+    comment: 때로는 불가능한 목표보다 포기가 낫다.
+
+  - title: Android and iPhone users can now share files, starting with the Pixel 10 family.
+    link: https://blog.google/products-and-platforms/platforms/android/quick-share-airdrop/
+    comment: 에어드랍 같이 좀 씁시다.
+
+  - title: Our latest investment in open source security for the AI era
+    link: https://blog.google/innovation-and-ai/technology/safety-security/ai-powered-open-source-security/
+    comment: 지난 번 FFMpeg 관련 기사를 소개하며 '기업들이 오픈소스에 돈을 더 쓸 필요가 있다고 생각하지만 그걸 강하게 유도할 수 있는 좋은 방법이 무엇인지는 잘 모르겠다'고 했는데요, Amazon, Anthropic, Microsoft/GitHub, OpenAI, Google 등이 합작하여 $12.5M 규모의 후원을 진행했다고 합니다. 훈훈한 소식이네요.
+
+  - title: “레이저 없는 광 케이블” AI 데이터센터 네트워크 해법으로 주목
+    link: https://www.itworld.co.kr/article/4147363/%EB%A0%88%EC%9D%B4%EC%A0%80-%EC%97%86%EB%8A%94-%EA%B4%91-%EC%BC%80%EC%9D%B4%EB%B8%94-ai-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%84%BC%ED%84%B0-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%ED%95%B4.html
+    comment: MS 리서치에서 하드웨어 쪽으로 흥미로운 연구를 종종 발표하는 것 같습니다.
+
+  - title: 엑스박스 원 보안 무너졌다…'해킹 불가' 신화 붕괴
+    link: https://www.digitaltoday.co.kr/news/articleView.html?idxno=642982
+    comment: 기사 제목의 호들갑과는 달리 2013년 출시된 콘솔이 지금 뚫렸다는 것은 사실상 안전한 설계의 반증이라고 보입니다. 13년 동안이나 뚫리지 않았던 설계와 결국 뚫어낸 쪽 양쪽 모두에 경의를 느끼는 소식이었습니다. 여기에 적긴 길지만 엑스박스 내부 보안이 참 흥미로운 내용들이 많으니 더 찾아보시는 것도 추천합니다.
+
+  - title: It's your fault my laptop knows where I am
+    link: https://www.amoses.dev/blog/wifi-location/
+    comment: GPS 없는 랩탑의 위치 추적은 어떻게 할까요? 저는 막연히 IP 주소로 한다고 생각하고 있었는데, 주변의 Wi-Fi SSID와 세기를 이용한 데이터베이스를 쌓아두고 이걸 이용한다고 하네요.
+
+  - title: Adversarial Poetry as a Universal Single-Turn Jailbreak Mechanism in Large Language Models
+    link: https://arxiv.org/abs/2511.15304
+    comment: 시 형태로 작성된 악성 프롬프트가 범용 jailbreak 메커니즘으로 활용될 수 있다는 발견입니다.
+
+  - title: We Induced Smells With Ultrasound
+    link: https://writetobrain.com/olfactory
+    comment: 초음파로 뇌를 직접 자극해 냄새를 느끼는 감각을 만들어 내는 데모입니다. 인류는 소드아트온라인에 한발짝 더 다가섰습니다.
+
+  - title: Make product worse, get money
+    link: https://dynomight.net/worse/
+    comment: 나쁜 제품은 왜 나쁜가에 대한 고찰과 함께, 제품에 대해 생각하는 흥미로운 관점을 던져주는 글이었습니다.
+
+  - title: Remote Command Execution in Google Cloud with Single Directory Deletion
+    link: https://flatt.tech/research/posts/remote-command-execution-in-google-cloud-with-single-directory-deletion/
+    comment: Bare git repository confusion이나 fsmonitor를 이용해 공격하는 기법이 처음이라 신선하고 재밌었습니다.
+
+  - title: 원금 20% 깨져도 내 돈은 안전, ISA보다 강력한 그것이 온다
+    link: https://story.pay.naver.com/content/2272_29_C2
+    comment: 국민성장펀드라는 좋아 보이는 게 나온다고 해서, 기억하려고 저장해 뒀습니다. 본 게시물은 단순 의견 및 정보 공유를 목적으로 작성되었으며, 매수·매도 등 투자의 권유가 아닙니다. 모든 투자의 판단과 책임은 투자자 본인에게 있습니다.
+
+  - title: 중딩 딸래미 영어학원을 끊기까지...
+    link: https://www.clien.net/service/board/park/19097551
+    comment: 바이브코딩으로 만든 영어공부 앱인데, 기획도 좋고 체계적이고 재밌어보여서 나중에 시도해 보고 싶습니다.
+
+  - title: 전원이 꺼진 SSD는 서서히 데이터를 잃는다
+    link: https://news.hada.io/topic?id=24600
+    comment: 몰랐어... 이거 보고 오랜만에 SSD 연결해서 밥 한 번 줬습니다.
+
+  - title: 호텔 욕실문을 다시 설치하라
+    link: https://news.hada.io/topic?id=24653
+    comment: 첫인상은 웃긴데 필요하고 유용한 웹사이트 같습니다.
+
+  - title: 32 things we’ve learned about building a startup that scales
+    link: https://newsletter.posthog.com/p/32-things-weve-learned-from-scaling
+    comment: PostHog가 항상 강한 주장을 담아서 블로그를 쓰는데, 동의하는 내용도 아닌 내용도 있지만 흥미로운 생각할 거리를 던져주는 부분은 늘 만족하고 있습니다.
+
+  - title: litellm 1.82.8 Supply Chain Attack on PyPI (March 2026)
+    link: https://futuresearch.ai/blog/litellm-pypi-supply-chain-attack/
+    comment: litellm 털린 것도 큰 뉴스 였는데, 바로 이 다음 뉴스가 너무나 커서...
+
+  - title: 'Post Mortem: axios npm supply chain compromise'
+    link: https://github.com/axios/axios/issues/10636#issuecomment-4180237789
+    comment: HTTP Client로 엄청나게 많이 쓰이는 Axios도 supply chain 공격에 당했다고 합니다. 가짜 슬랙 워크스페이스를 세팅하고 컴퍼니 브랜딩까지 흉내내는 등, 정교한 공격 기법에 놀랐습니다.
+
+  - title: ARC-AGI-3
+    link: https://arcprize.org/arc-agi/3
+    comment: AI 성능 벤치마크 ARC-AGI에서 게임 기반의 버전 3를 공개했습니다. 2024년에 ['AI가 Zachtronics 게임을 풀게 되면 그 때는 진짜 직업 안정성에 두려움을 느낄 것'](https://x.com/yechan_bae/status/1872056795281400033)이라는 트윗을 올렸었는데, 그 생각이 나서 재밌었습니다. 방문해 보시면 실제 플레이도 가능합니다!
+
+  - title: 대기업에서 유능한 엔지니어들이 나쁜 코드를 작성하는 이유
+    link: https://news.hada.io/topic?id=24710
+    comment: 요즘 대기업에서 AI 부리기 전문가로 열심히 일하는 중이라 제목보고 찔려서 눌러봤습니다. 유능한 엔지니어가 나쁜 코드를 작성하는 이유가 계속해서 새로운 코드베이스에서 일하기 때문이라는 분석에는 동의하지 않는데, 경험상 유능한 엔지니어들 6개월 지나도 초보자처럼 코드 짜고 그렇지 않습니다. 다만 코드의 품질이 조직의 우선 목표가 아닐 수 있고, 품질도 의도적인 트레이드오프 대상이 될 수 있다는 부분을 이해하는 것은 시니어리티의 중요한 부분 같습니다.
+
+  - title: 독일에서 오픈소스 활동을 공식적인 시민 봉사로 인정해 달라는 청원
+    link: https://news.hada.io/topic?id=24699
+    comment: 그동안 못해봤던 발상인데 생각할수록 그럴싸 하기도 하고, 한국에서도 되면 좋겠습니다.
+
+  - title: 핀란드에서 250MWh 규모 ‘모래 배터리’ 건설 착수
+    link: https://news.hada.io/topic?id=24690
+    comment: 모래를 잔뜩 모아서 열 에너지를 저장하는 배터리로 쓸 수 있다고 합니다. 댐의 물을 거꾸로 퍼올려서 물의 위치 에너지로 에너지를 저장하는 방식이 있다는 걸 예전에 듣고 신기했었는데, 이렇게 아날로그 방식으로 전기 에너지를 저장하는 방식들 아이러니 같고 재밌습니다.
+
+  - title: 웹 수익 표준으로 가는 Web Monetization, 여전히 어렵게만 느껴지는 이유
+    link: https://news.hada.io/topic?id=24746
+    comment: 한국의 미디어 바우처 정책을 떠올리며 읽었습니다.
+
+  - title: Sprite Fusion Pixel Snapper
+    link: https://github.com/Hugo-Dz/spritefusion-pixel-snapper
+    comment: 가끔 AI-generated 픽셀 아트 볼 때 얘들은 픽셀 칸을 어떻게 맞추는지 궁금했었는데, 그냥 못 맞추는 거였군요.
+
+  - title: Vite 8.0 is out!
+    link: https://vite.dev/blog/announcing-vite8
+    comment: 8.0에서는 Rolldown으로 기존의 esbuild + Rollup을 대체했다고 하네요. Vite 좋와용.
+
+  - title: 'The Good, the Bad, and the Leaky: jemalloc, bumpalo, and mimalloc in meilisearch'
+    link: https://blog.kerollmops.com/the-good-the-bad-and-the-leaky-jemalloc-bumpalo-and-mimalloc-in-meilisearch
+    comment: 우리 프로그램 메모리 릭이 알고보니 얼로케이터 문제였더라~ 읽는 입장에선 재밌지만 찾는 입장에서는 힘들었겠습니다.
+---
