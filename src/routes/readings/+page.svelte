@@ -23,15 +23,11 @@
 
 			<!-- Content -->
 			<div class="mb-4">
-				<a
-					href="#{reading.slug}"
-					class="text-lg font-semibold"
-					id={reading.slug}
-				>
+				<a href="#{reading.slug}" class="text-lg font-semibold" id={reading.slug}>
 					{reformatDateString(reading.date, 'ko')}
 				</a>
 				<p class="mt-1">{reading.intro}</p>
-				<ul class="mt-2 readings-list">
+				<ul class="readings-list mt-2">
 					{#each reading.readings as item}
 						<li>
 							<a

@@ -44,7 +44,16 @@ const config = {
 			// after turning off this option
 			routes: {
 				include: ['/*'],
-				exclude: ['<build>', '/favicon.png', '/post-images/*', '/', '/posts', '/posts/*', '/readings', '/readings/*']
+				exclude: [
+					'<build>',
+					'/favicon.png',
+					'/post-images/*',
+					'/',
+					'/posts',
+					'/posts/*',
+					'/readings',
+					'/readings/*'
+				]
 			}
 		}),
 
