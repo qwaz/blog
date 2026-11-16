@@ -1,4 +1,4 @@
-import { getPosts } from '$posts';
+import { getPosts } from '#posts';
 import type { LayoutServerLoad } from './$types';
 
 export const prerender = true;

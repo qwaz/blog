@@ -1,4 +1,4 @@
-import type { Language } from '$posts';
+import type { Language } from '#posts';
 
 type DateStyle = Intl.DateTimeFormatOptions['dateStyle'];
 

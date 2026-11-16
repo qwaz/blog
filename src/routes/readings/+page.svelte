@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { PageProps } from './$types';
-	import { reformatDateString } from '$lib/date';
+	import { reformatDateString } from '#lib/date.ts';
 
 	let { data }: PageProps = $props();
 </script>

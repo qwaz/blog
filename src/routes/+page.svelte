@@ -9,6 +9,6 @@
 <main id="content">
 	<p>
 		Nothing interesting is here yet. Maybe you want to check my
-		<a href={resolve('/posts')}>blog posts </a>?
+		<a href={resolve('posts')}>blog posts </a>?
 	</p>
 </main>

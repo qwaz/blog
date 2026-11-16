@@ -12,7 +12,7 @@ No test framework is configured.
 
 ## Architecture
 
-This is a SvelteKit 2 + Svelte 5 blog deployed to Cloudflare Pages. Content is authored as `.svx` files (MDsveX — Markdown with Svelte components) with YAML frontmatter validated by Zod schemas.
+This is a SvelteKit 3 + Svelte 5 blog deployed to Cloudflare Pages. Content is authored as `.svx` files (MDsveX — Markdown with Svelte components) with YAML frontmatter validated by Zod schemas.
 
 ### Content Types
 
@@ -34,9 +34,15 @@ Content loaders live at `src/posts/index.ts` and `src/readings/index.ts`. They u
 
 ### Path Aliases
 
-- `$lib` → `src/lib`
-- `$posts` → `src/posts`
-- `$readings` → `src/readings`
+Defined as Node subpath imports in the `imports` field of `package.json`. Include the file extension when importing a specific file (e.g. `#lib/date.ts`).
+
+- `#lib` → `src/lib`
+- `#posts` → `src/posts`
+- `#readings` → `src/readings`
+
+### Configuration
+
+All SvelteKit, Svelte preprocessor (MDsveX), and adapter configuration lives in the `sveltekit()` plugin options in `vite.config.ts`. There is no `svelte.config.js`.
 
 ### WordPress Archive
 
@@ -48,8 +54,8 @@ Content loaders live at `src/posts/index.ts` and `src/readings/index.ts`. They u
 - **Svelte 5 runes** — Use `$state`, `$derived`, `$effect`, etc. Not legacy reactive syntax.
 - **Formatting** — Tabs, single quotes, no trailing commas, 100 char print width (configured in `.prettierrc`).
 - **Styling** — Tailwind CSS v4 via the `@tailwindcss/vite` plugin. Global content styles (headings, lists, code blocks, blockquotes) are defined in `src/app.css` scoped under `#content`.
-- **Code highlighting** — Shiki with `dracula-soft` theme. Supported languages: JS, TS, Python, C, C++, Rust, Haskell. Add new languages in `svelte.config.js`.
+- **Code highlighting** — Shiki with `dracula-soft` theme. Supported languages: JS, TS, Python, C, C++, Rust, Haskell. Add new languages in `vite.config.ts`.
 - **Math** — KaTeX via `remark-math` + `rehype-katex-svelte`. Use standard LaTeX delimiters in `.svx` files.
 - **Prerendering** — All content pages are statically pre-rendered.
-- **Node version** — Pinned to 22.13.1 (`.node-version`), engine-strict enabled (`.npmrc`).
+- **Node version** — Pinned to 22.23.5 (`.node-version`; SvelteKit 3 requires ≥ 22.17), engine-strict enabled (`.npmrc`).
 - **Package manager** — Use `bun` for installing packages and running scripts.

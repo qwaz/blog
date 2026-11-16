@@ -7,7 +7,7 @@ categories:
 ---
 
 <script lang="ts">
-  import Spoiler from "$lib/Spoiler.svelte";
+  import Spoiler from "#lib/Spoiler.svelte";
 </script>
 
 # SCC

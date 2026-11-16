@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { reformatDateString } from '$lib/date';
+	import { reformatDateString } from '#lib/date.ts';
 
 	const { data } = $props();
 	const metadata = $derived(data.metadata);

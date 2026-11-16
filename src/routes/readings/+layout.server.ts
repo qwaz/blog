@@ -1,4 +1,4 @@
-import { getReadings } from '$readings';
+import { getReadings } from '#readings';
 import type { LayoutServerLoad } from './$types';
 
 export const prerender = true;

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import type { PageProps } from './$types';
-	import { reformatDateString } from '$lib/date';
+	import { reformatDateString } from '#lib/date.ts';
 
 	let { data }: PageProps = $props();
 </script>
@@ -17,7 +17,7 @@
 		<li class="mt-3">
 			<span class="text-gray-500">{reformatDateString(post.date, post.language)}</span>
 			<h2 class="text-xl font-semibold">
-				<a href={resolve(`/posts/${post.slug}`)} class="hover:text-blue-600">
+				<a href={resolve(`posts/${post.slug}`)} class="hover:text-blue-600">
 					{post.title}
 				</a>
 			</h2>
