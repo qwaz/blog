@@ -12,7 +12,7 @@ readings:
     comment: LLM 원가 비용이 생각보다 많이 비싸서 이걸 어떻게 비즈니스 모델에 녹여내서 소화하는가가 프로덕트 포지션 확립에 중요한 문제더라구요. AI 다루고 있는 팀에서 다들 고민하는 문제인 듯.
 
   - title: 잘하는 것만으로는 충분하지 않음
-    link: https://news.hada.io/topic?id=22985
+    link: https://news.hada.io/topic?id=22998
     comment: 회사에서 "의미 있는 일을 실제로 일어나게 하는 것"을 위해서 어떤 방식으로 노력해야 하는지를 정리해서 보여줍니다. 많이 다뤄지는 주제이긴 하지만 좋은 요약글이라고 생각합니다.
 
   - title: E-Paper Display Reaches the Realm of LCD Screens

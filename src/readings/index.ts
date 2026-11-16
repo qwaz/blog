@@ -4,7 +4,7 @@ import { z } from 'zod';
 const ReadingItem = z
 	.object({
 		title: z.string(),
-		link: z.string(),
+		link: z.url({ protocol: /^https?$/ }),
 		comment: z.string()
 	})
 	.strict();
@@ -17,7 +17,19 @@ const ReadingFrontMatter = z
 	.object({
 		date: z.iso.date(),
 		intro: z.string(),
-		readings: z.array(ReadingItem)
+		readings: z.array(ReadingItem).superRefine((items, ctx) => {
+			const seen = new Set<string>();
+			items.forEach((item, index) => {
+				if (seen.has(item.link)) {
+					ctx.addIssue({
+						code: 'custom',
+						message: `Duplicate link: ${item.link}`,
+						path: [index, 'link']
+					});
+				}
+				seen.add(item.link);
+			});
+		})
 	})
 	.strict();
 

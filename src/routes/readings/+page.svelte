@@ -12,7 +12,7 @@
 <h1 class="text-2xl font-bold">Readings</h1>
 
 <div class="mt-6 flex flex-col" id="readings">
-	{#each data.readings as reading, i (reading.slug)}
+	{#each data.readings as reading (reading.slug)}
 		<div class="flex gap-4">
 			<!-- Timeline: continuous line with dot centered on date row -->
 			<div class="flex flex-col items-center">
@@ -28,14 +28,16 @@
 				</a>
 				<p class="mt-1">{reading.intro}</p>
 				<ul class="readings-list mt-2">
-					{#each reading.readings as item}
+					{#each reading.readings as item (item.link)}
 						<li>
 							<a
 								href={item.link}
 								class="text-sm font-semibold"
 								target="_blank"
-								rel="noopener noreferrer">{item.title}</a
+								rel="external noopener noreferrer">{item.title}</a
 							>
+							<!-- commentHtml is rendered at build time from the author's own frontmatter -->
+							<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 							<span class="text-sm">{@html item.commentHtml}</span>
 						</li>
 					{/each}

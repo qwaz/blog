@@ -68,7 +68,7 @@ readings:
     comment: 범용성과 성능을 교환하는 흥미로운 개발 환경 같아요.
 
   - title: 스위스에서 조력 자살을 선택한 Daniel Kahneman
-    link: https://news.hada.io/topic?id=23602
+    link: https://news.hada.io/topic?id=23596
     comment: 생각에 관한 생각(Thinking, Fast and Slow) 등 행동경제학 관련 책을 쓰시고 노벨상도 받은 분인데, 스위스에서 돌아가셨다고 합니다.
 
   - title: 'Ask HN: 너무 일찍 중단되거나 종료된 프로젝트가 있나요?'

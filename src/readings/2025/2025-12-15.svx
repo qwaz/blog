@@ -41,7 +41,7 @@ readings:
     comment: Claude Code 프롬프트 RE + 좋은 에이전트를 만들기 위한 교훈
 
   - title: Is it possible to allow sideloading *and* keep users safe?
-    link: https://minusx.ai/blog/decoding-claude-code/
+    link: https://shkspr.mobi/blog/2025/08/is-it-possible-to-allow-sideloading-and-keep-users-safe/
     comment: 안드로이드가 개발자 등록 정책을 시행하면서 반발이 많은데, 사용자에게 뭐든 할 수 있는 권한 주기 대 사기에 취약한 사회 계층을 보호하기 사이에서 어느 쪽도 만족스럽지 않은 상황에 대한 성토입니다.
 
   - title: Agile is about Adaptability not Speed
