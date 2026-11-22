@@ -116,7 +116,7 @@ readings:
 
   - title: 취향(taste)을 갖춘 30배 AI 엔지니어가 되는 법
     link: https://news.hada.io/topic?id=30338
-    comment: "취향"을 두 구현 중 어느 쪽이 더 나은지 느끼는 능력, 다음에 무엇을 만들지 아는 능력, 나중에 중요해질 것을 예측할 수 있는 능력으로 정의하고 이 능력들이 왜 대 AI 시대에 중요한지를 논합니다.
+    comment: '"취향"을 두 구현 중 어느 쪽이 더 나은지 느끼는 능력, 다음에 무엇을 만들지 아는 능력, 나중에 중요해질 것을 예측할 수 있는 능력으로 정의하고 이 능력들이 왜 대 AI 시대에 중요한지를 논합니다.'
 
   - title: A UAF turned RCE (curl)
     link: https://daniel.haxx.se/blog/2026/10/14/a-uaf-turned-rce/
