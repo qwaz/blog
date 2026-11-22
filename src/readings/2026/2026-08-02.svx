@@ -3,13 +3,13 @@ date: '2026-08-02'
 intro: >-
   오랜만입니다. 지난 4개월 사이 팀 업무에서도 많은 변화와 성공이 있었고 소프트웨어 엔지니어링 자체에도 많은 변화가 있었던 기간이네요.
   이렇게 기사 정리 글을 가끔 쓸 생각은 아니었는데, 개인적으로 준비하고 있는 중요한 일이 있어서(좋은 일입니다) 바쁘기도 했고,
-  매일 일하면서 에이전트 세션 세 개를 켜놓고 읽다보면 내면의 '읽기 에너지'가 고갈이 되어서 그렇다는 변명을 해 봅니다.
-  다행히 팀이 바쁜 시기를 거쳐서 안정화 되고 있고, 저도 다시 업무 밖 읽기를 시작해 보려고 그 동안 쌓인 글을 정리해 봅니다.
+  매일 일하면서 에이전트 세션 세 개를 켜놓고 읽다 보면 내면의 '읽기 에너지'가 고갈이 되어서 그렇다는 변명을 해 봅니다.
+  다행히 팀이 바쁜 시기를 거쳐서 안정화되고 있고, 저도 다시 업무 밖 읽기를 시작해 보려고 그동안 쌓인 글을 정리해 봅니다.
 
 readings:
   - title: 'Crashing Waves vs. Rising Tides: Preliminary Findings on AI Automation from Thousands of Worker Evaluations of Labor Market Tasks'
     link: https://www.alphaxiv.org/abs/2604.01363
-    comment: AI의 능력 향상이 특정 난이도 이상의 문제에 대해 급격한 발전이 나타는 crashing waves 형태이냐 전체적으로 점진적으로 발전하는 rising tides 형태이냐를 연구합니다. 해당 논문에서는 널리 퍼진 믿음과 달리 AI의 발전이 rising tides 형태라 주장합니다. 링크를 눌러 그림을 보시면 이해가 더 빠릅니다.
+    comment: AI의 능력 향상이 특정 난이도 이상의 문제에 대해 급격한 발전이 나타나는 crashing waves 형태이냐 전체적으로 점진적으로 발전하는 rising tides 형태이냐를 연구합니다. 해당 논문에서는 널리 퍼진 믿음과 달리 AI의 발전이 rising tides 형태라 주장합니다. 링크를 눌러 그림을 보시면 이해가 더 빠릅니다.
 
   - title: Assessing Claude Mythos Preview’s cybersecurity capabilities
     link: https://red.anthropic.com/2026/mythos-preview/
@@ -17,15 +17,15 @@ readings:
 
   - title: 구글, 글로벌 AI 연산능력 23% 점유...자체 칩 TPU 앞세웠다
     link: https://www.chosun.com/economy/tech_it/2026/04/08/5JQDTMEUGRADDDIEDYFOQKBHP4/
-    comment: 구글의 TPU도 인상적이었지만 MS의 연산 능력 보유량도 놀랐습니다.
+    comment: 구글의 TPU도 인상적이었지만 MS의 연산 능력 보유량도 놀라웠습니다.
 
   - title: 'slopc: A proc macro that uses an hallucination machine to write your function bodies at compile time.'
     link: https://github.com/shorwood/slopc
-    comment: Rust에서 컴파일 타임에 LLM을 불러서 코드를 생성한다면 어떨까? 하는 말도 안되는 아이디어입니다. 유머가 좋았습니다.
+    comment: Rust에서 컴파일 타임에 LLM을 불러서 코드를 생성한다면 어떨까? 하는 말도 안 되는 아이디어입니다. 유머가 좋았습니다.
 
   - title: Vulnerability Research Is Cooked
     link: https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/
-    comment: 이제는 정말로 제 주변 사람들이 AI가 나보다 해킹 더 잘한다고 하는 시대가 와버렸는데, token in vuln out의 시대에 뭘 해먹고 살아야 할 지 요즘 고민이 많습니다.
+    comment: 이제는 정말로 제 주변 사람들이 AI가 나보다 해킹 더 잘한다고 하는 시대가 와버렸는데, token in vuln out의 시대에 뭘 해먹고 살아야 할지 요즘 고민이 많습니다.
 
   - title: Rust should have stable tail calls
     link: https://trifectatech.org/blog/tail-calls-project-goal/
@@ -37,7 +37,7 @@ readings:
 
   - title: 'Everything Should Be Typed: Scalar Types Are Not Enough'
     link: https://sot.dev/everything-should-be-typed.html
-    comment: Make Invalid States Unrepresentable의 중요성은 아무리 강조해도 모자라지 않다고 생각합니다. 제가 에이전트한테 항상 시키는 방향성인데 맨날 그지같이 짜와서 답답합니다. 새 모델 나올 떄 마다 조금씩 나아지기는 하는데...
+    comment: Make Invalid States Unrepresentable의 중요성은 아무리 강조해도 모자라지 않다고 생각합니다. 제가 에이전트한테 항상 시키는 방향성인데 맨날 그지같이 짜와서 답답합니다. 새 모델 나올 때마다 조금씩 나아지기는 하는데...
 
   - title: AI에 일 시키고 쪽잠 자며 감독… 실리콘밸리 '24시간 무한근무’
     link: https://www.chosun.com/economy/tech_it/2026/04/23/S6DXWGS5T5FMHN4ZEFHJLJLC2I/
@@ -53,7 +53,7 @@ readings:
 
   - title: Bugs Rust Won't Catch
     link: https://corrode.dev/blog/bugs-rust-wont-catch/
-    comment: Rust의 coreutils 구현에 발견된 다양한 로직 버그들을 분류해 소개합니다.
+    comment: Rust의 coreutils 구현에서 발견된 다양한 로직 버그들을 분류해 소개합니다.
 
   - title: Behind the Scenes Hardening Firefox with Claude Mythos Preview
     link: https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/
@@ -69,23 +69,23 @@ readings:
 
   - title: "Mythos for Offensive Security: XBOW's Evaluation"
     link: https://xbow.com/blog/mythos-offensive-security-xbow-evaluation
-    comment: Mythos 써봤을 때 잘 하지만 세간의 호들갑에 비해서는 실망스러운 부분도 있다고 느꼈는데, 제가 살짝 써 보고 느낀 것보다 더 자세하게 보안 관점에서 Mythos의 능력을 측정하고 공유해 줘서 좋았습니다.
+    comment: Mythos 써봤을 때 잘하지만 세간의 호들갑에 비해서는 실망스러운 부분도 있다고 느꼈는데, 제가 살짝 써 보고 느낀 것보다 더 자세하게 보안 관점에서 Mythos의 능력을 측정하고 공유해 줘서 좋았습니다.
 
   - title: 리눅스 커널에서의 Rust 실험 (성공적) 종료
     link: https://news.hada.io/topic?id=24987
-    comment: 리눅스 커널에 실험 상태로 들어가 있던 Rust가 실험 딱지를 떼고 정식으로 인정 받았습니다.
+    comment: 리눅스 커널에 실험 상태로 들어가 있던 Rust가 실험 딱지를 떼고 정식으로 인정받았습니다.
 
   - title: 20 Years of Digital Life, Gone in an Instant, thanks to Apple
     link: https://hey.paris/posts/appleid/
-    comment: 기프트 카드 한 번 잘못 샀다가 20년어치 온라인 기록을 전부 날릴 뻔 했지만, 다행히 해당 글이 해커뉴스 상위권에 올라가고 애플의 연락을 받아 계정을 되찾았다고 합니다. 축하할 일이지만 해커뉴스에 올라가지 못하고 계정이 잠겨 버리는 사람들에 대해 생각하게 되고, 디지털 시대의 소유와 연결에 대해 단일 기업이 얼마나 큰 영향을 끼칠 수 있는지에 대한 무서움을 되새기게 됩니다.
+    comment: 기프트 카드 한 번 잘못 샀다가 20년어치 온라인 기록을 전부 날릴 뻔했지만, 다행히 해당 글이 해커뉴스 상위권에 올라가고 애플의 연락을 받아 계정을 되찾았다고 합니다. 축하할 일이지만 해커뉴스에 올라가지 못하고 계정이 잠겨 버리는 사람들에 대해 생각하게 되고, 디지털 시대의 소유와 연결에 대해 단일 기업이 얼마나 큰 영향을 끼칠 수 있는지에 대한 무서움을 되새기게 됩니다.
 
   - title: 왜 당신의 최고 엔지니어들이 다른 곳에 면접을 보고 있을까
     link: https://news.hada.io/topic?id=25115
-    comment: 조직 구조와 의사 결정 관점에서 강력하게 추천하는 글입니다. 특히 스타트업에서 대기업으로 이직한 상태라, 이런식의 '실무자들은 누구나 다 실패할 것이라고 생각하지만 어찌 됐든 밀어붙이고 결국 실패하는 일'에 대해서 더 경계하게 됩니다.
+    comment: 조직 구조와 의사 결정 관점에서 강력하게 추천하는 글입니다. 특히 스타트업에서 대기업으로 이직한 상태라, 이런 식의 '실무자들은 누구나 다 실패할 것이라고 생각하지만 어찌 됐든 밀어붙이고 결국 실패하는 일'에 대해서 더 경계하게 됩니다.
 
   - title: Andrej Karpathy의 2025년 LLM 연간 리뷰
     link: https://news.hada.io/topic?id=25208
-    comment: 너무 익숙하게 쓰고 있어서 이게 2025년에 나왔다고? 싶은 것들이 많았습니다. LLM이 평소에 일을 잘 하다가도 너무나 멍청한 짓을 할 때 가슴이 답답해 질 때가 많은데, 그걸 Jagged Intelligence라고 표현한 것을 보고 좋은 표현이라 생각했습니다.
+    comment: 너무 익숙하게 쓰고 있어서 이게 2025년에 나왔다고? 싶은 것들이 많았습니다. LLM이 평소에 일을 잘하다가도 너무나 멍청한 짓을 할 때 가슴이 답답해 질 때가 많은데, 그걸 Jagged Intelligence라고 표현한 것을 보고 좋은 표현이라 생각했습니다.
   
   - title: <br> 태그로 돌아본 웹의 30년
     link: https://news.hada.io/topic?id=25130
@@ -101,11 +101,11 @@ readings:
 
   - title: 내가 2025년에 배운 52가지
     link: https://news.hada.io/topic?id=25246
-    comment: 한 줄짜리 흥미로운 상식 52가지입니다. 읽는데도 얼마 안 걸리고 진짜 재밌습니다 추천합니다.
+    comment: 한 줄짜리 흥미로운 상식 52가지입니다. 읽는 데도 얼마 안 걸리고 진짜 재밌습니다 추천합니다.
 
   - title: AI는 개발 속도를 높이지만 버그는 1.7배 더 많다
     link: https://news.hada.io/topic?id=25350
-    comment: AI 답답하고 화나는데 안 쓸 수는 없어서 매일 감정이 롤러코스터를 탑니다. 나만 그런게 아니구나 하는 작은 위안을 받았습니다.
+    comment: AI 답답하고 화나는데 안 쓸 수는 없어서 매일 감정이 롤러코스터를 탑니다. 나만 그런 게 아니구나 하는 작은 위안을 받았습니다.
 
   - title: 저는 인터넷에서 양파를 팝니다
     link: https://news.hada.io/topic?id=25345
@@ -137,7 +137,7 @@ readings:
 
   - title: How memory safety CVEs differ between Rust and C/C++
     link: https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html
-    comment: 제가 Rudra 논문 쓸 때부터 교수님과 많이 하던 얘기인데, Rust의 safety 모델의 정말 큰 강점은 UB가 발생했을 때 이게 API 디자인 이슈인지 사용자가 잘못 쓴 이슈인지를 명확히 정의할 수 있는 점입니다. Safe API로 UB를 절대 트리거 할 수 없어야 하고, 실제로 안전한 API를 디자인하기 위한 장치들도 다양하게 마련하고 있어서 정말 시스템 프로그래밍 언어로 훌륭한 언어라고 생각합니다.
+    comment: 제가 Rudra 논문 쓸 때부터 교수님과 많이 하던 얘기인데, Rust의 safety 모델의 정말 큰 강점은 UB가 발생했을 때 이게 API 디자인 이슈인지 사용자가 잘못 쓴 이슈인지를 명확히 정의할 수 있는 점입니다. Safe API로 UB를 절대 트리거할 수 없어야 하고, 실제로 안전한 API를 디자인하기 위한 장치들도 다양하게 마련하고 있어서 정말 시스템 프로그래밍 언어로 훌륭한 언어라고 생각합니다.
 
   - title: “기업 대표번호로 민원 넣는 느낌” 학부모와 교사의 씁쓸한 ‘뉴노멀’
     link: https://www.sisain.co.kr/news/articleView.html?idxno=57532
@@ -149,7 +149,7 @@ readings:
 
   - title: Discovering cryptographic weaknesses with Claude
     link: https://www.anthropic.com/research/discovering-cryptographic-weaknesses
-    comment: AI가 최신 암호의 약점까지 발견할 수 있을 정도가 되었다고 합니다. 진짜 기술적 특이점이 머지 않은 것 같습니다.
+    comment: AI가 최신 암호의 약점까지 발견할 수 있을 정도가 되었다고 합니다. 진짜 기술적 특이점이 머지않은 것 같습니다.
 
   - title: CommandExt::exec writes to the global environment pointer while holding only a read lock
     link: https://github.com/rust-lang/rust/issues/156951

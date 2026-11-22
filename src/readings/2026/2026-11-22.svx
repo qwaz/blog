@@ -124,7 +124,7 @@ readings:
 
   - title: 'Ponytail: Makes your AI agent think like the laziest senior dev in the room'
     link: https://github.com/DietrichGebert/ponytail
-    comment: 저도 과거에 동그란 안경을 쓰고 머리를 기르고 남의 코드에 훈수를 많이 뒀기 때문에 설명이 괜히 찔리더라고요.
+    comment: 저도 과거에 동그란 안경을 쓰고 머리를 기르고 남의 코드에 훈수를 많이 뒀기 때문에 설명이 괜히 찔리더라구요.
 
   - title: 사람이 유지보수할 것처럼 코드를 작성하라
     link: https://news.hada.io/topic?id=31307

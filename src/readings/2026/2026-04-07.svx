@@ -1,8 +1,8 @@
 ---
 date: '2026-04-07'
 intro: >-
-  블로그를 업데이트 하고 기사 읽기 다시 열심히 해야지 생각했는데, 생각보다 우선순위가 잘 안 올라가네요.
-  매 주 쓰려는 생각만 하고 3주만에 찾아왔습니다. 그 사이에 인생 첫 PT를 시작했고, 업무도 열심히 하고 있다는 변명을 해보겠습니다.
+  블로그를 업데이트하고 기사 읽기 다시 열심히 해야지 생각했는데, 생각보다 우선순위가 잘 안 올라가네요.
+  매주 쓰려는 생각만 하고 3주 만에 찾아왔습니다. 그 사이에 인생 첫 PT를 시작했고, 업무도 열심히 하고 있다는 변명을 해보겠습니다.
   날씨가 좋아서 꽃놀이도 다녀왔습니다.
 
 readings:
@@ -12,11 +12,11 @@ readings:
 
   - title: Introducing Meta Segment Anything Model 3 (SAM 3)
     link: https://ai.meta.com/research/sam3/
-    comment: Meta의 Segment Anything 버전 3가 나왔다고 합니다. 데모에 펭귄 움직이는게 귀엽습니다.
+    comment: Meta의 Segment Anything 버전 3가 나왔다고 합니다. 데모에 펭귄 움직이는 게 귀엽습니다.
 
   - title: The code and open-source tools I used to produce a science fiction anthology
     link: https://compellingsciencefiction.com/posts/the-code-and-open-source-tools-i-used-to-produce-a-science-fiction-anthology.html
-    comment: 2024년에 출간된 SF 매거진들 중 참신한 컨셉을 가진 근미래 SF 단편을 모아, git과 LaTeX를 이용해 스스로 편집자로 일하며 앤솔로지 형태로 출판하는 여정을 다루는 블로그입니다. 기술적인 내용도 흥미로웠지만 어떻게 라이센스를 따는지 같은 내용도 궁금한데, 아쉽게도 그건 글에 포함되어 있지 않더라구요. 그렉 이건 등 제가 좋아하는 작가도 포함되어 있고 평도 좋아서 나중에 책도 구매해 읽어 볼 예정입니다.
+    comment: 2024년에 출간된 SF 매거진들 중 참신한 컨셉을 가진 근미래 SF 단편을 모아, git과 LaTeX를 이용해 스스로 편집자로 일하며 앤솔로지 형태로 출판하는 여정을 다루는 블로그입니다. 기술적인 내용도 흥미로웠지만 어떻게 라이선스를 따는지 같은 내용도 궁금한데, 아쉽게도 그건 글에 포함되어 있지 않더라구요. 그렉 이건 등 제가 좋아하는 작가도 포함되어 있고 평도 좋아서 나중에 책도 구매해 읽어 볼 예정입니다.
 
   - title: How many video games include a marriage proposal? At least one!
     link: https://32bits.substack.com/p/under-the-microscope-ncaa-basketball
@@ -32,7 +32,7 @@ readings:
 
   - title: Our latest investment in open source security for the AI era
     link: https://blog.google/innovation-and-ai/technology/safety-security/ai-powered-open-source-security/
-    comment: 지난 번 FFMpeg 관련 기사를 소개하며 '기업들이 오픈소스에 돈을 더 쓸 필요가 있다고 생각하지만 그걸 강하게 유도할 수 있는 좋은 방법이 무엇인지는 잘 모르겠다'고 했는데요, Amazon, Anthropic, Microsoft/GitHub, OpenAI, Google 등이 합작하여 $12.5M 규모의 후원을 진행했다고 합니다. 훈훈한 소식이네요.
+    comment: 지난번 FFmpeg 관련 기사를 소개하며 '기업들이 오픈소스에 돈을 더 쓸 필요가 있다고 생각하지만 그걸 강하게 유도할 수 있는 좋은 방법이 무엇인지는 잘 모르겠다'고 했는데요, Amazon, Anthropic, Microsoft/GitHub, OpenAI, Google 등이 합작하여 $12.5M 규모의 후원을 진행했다고 합니다. 훈훈한 소식이네요.
 
   - title: “레이저 없는 광 케이블” AI 데이터센터 네트워크 해법으로 주목
     link: https://www.itworld.co.kr/article/4147363/%EB%A0%88%EC%9D%B4%EC%A0%80-%EC%97%86%EB%8A%94-%EA%B4%91-%EC%BC%80%EC%9D%B4%EB%B8%94-ai-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%84%BC%ED%84%B0-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%ED%95%B4.html
@@ -52,7 +52,7 @@ readings:
 
   - title: We Induced Smells With Ultrasound
     link: https://writetobrain.com/olfactory
-    comment: 초음파로 뇌를 직접 자극해 냄새를 느끼는 감각을 만들어 내는 데모입니다. 인류는 소드아트온라인에 한발짝 더 다가섰습니다.
+    comment: 초음파로 뇌를 직접 자극해 냄새를 느끼는 감각을 만들어 내는 데모입니다. 인류는 소드아트온라인에 한 발짝 더 다가섰습니다.
 
   - title: Make product worse, get money
     link: https://dynomight.net/worse/
@@ -68,7 +68,7 @@ readings:
 
   - title: 중딩 딸래미 영어학원을 끊기까지...
     link: https://www.clien.net/service/board/park/19097551
-    comment: 바이브코딩으로 만든 영어공부 앱인데, 기획도 좋고 체계적이고 재밌어보여서 나중에 시도해 보고 싶습니다.
+    comment: 바이브코딩으로 만든 영어공부 앱인데, 기획도 좋고 체계적이고 재밌어 보여서 나중에 시도해 보고 싶습니다.
 
   - title: 전원이 꺼진 SSD는 서서히 데이터를 잃는다
     link: https://news.hada.io/topic?id=24600
@@ -84,11 +84,11 @@ readings:
 
   - title: litellm 1.82.8 Supply Chain Attack on PyPI (March 2026)
     link: https://futuresearch.ai/blog/litellm-pypi-supply-chain-attack/
-    comment: litellm 털린 것도 큰 뉴스 였는데, 바로 이 다음 뉴스가 너무나 커서...
+    comment: litellm 털린 것도 큰 뉴스였는데, 바로 이 다음 뉴스가 너무나 커서...
 
   - title: 'Post Mortem: axios npm supply chain compromise'
     link: https://github.com/axios/axios/issues/10636#issuecomment-4180237789
-    comment: HTTP Client로 엄청나게 많이 쓰이는 Axios도 supply chain 공격에 당했다고 합니다. 가짜 슬랙 워크스페이스를 세팅하고 컴퍼니 브랜딩까지 흉내내는 등, 정교한 공격 기법에 놀랐습니다.
+    comment: HTTP Client로 엄청나게 많이 쓰이는 Axios도 supply chain 공격에 당했다고 합니다. 가짜 슬랙 워크스페이스를 세팅하고 컴퍼니 브랜딩까지 흉내 내는 등, 정교한 공격 기법에 놀랐습니다.
 
   - title: ARC-AGI-3
     link: https://arcprize.org/arc-agi/3
@@ -96,11 +96,11 @@ readings:
 
   - title: 대기업에서 유능한 엔지니어들이 나쁜 코드를 작성하는 이유
     link: https://news.hada.io/topic?id=24710
-    comment: 요즘 대기업에서 AI 부리기 전문가로 열심히 일하는 중이라 제목보고 찔려서 눌러봤습니다. 유능한 엔지니어가 나쁜 코드를 작성하는 이유가 계속해서 새로운 코드베이스에서 일하기 때문이라는 분석에는 동의하지 않는데, 경험상 유능한 엔지니어들 6개월 지나도 초보자처럼 코드 짜고 그렇지 않습니다. 다만 코드의 품질이 조직의 우선 목표가 아닐 수 있고, 품질도 의도적인 트레이드오프 대상이 될 수 있다는 부분을 이해하는 것은 시니어리티의 중요한 부분 같습니다.
+    comment: 요즘 대기업에서 AI 부리기 전문가로 열심히 일하는 중이라 제목 보고 찔려서 눌러봤습니다. 유능한 엔지니어가 나쁜 코드를 작성하는 이유가 계속해서 새로운 코드베이스에서 일하기 때문이라는 분석에는 동의하지 않는데, 경험상 유능한 엔지니어들 6개월 지나도 초보자처럼 코드 짜고 그렇지 않습니다. 다만 코드의 품질이 조직의 우선 목표가 아닐 수 있고, 품질도 의도적인 트레이드오프 대상이 될 수 있다는 부분을 이해하는 것은 시니어리티의 중요한 부분 같습니다.
 
   - title: 독일에서 오픈소스 활동을 공식적인 시민 봉사로 인정해 달라는 청원
     link: https://news.hada.io/topic?id=24699
-    comment: 그동안 못해봤던 발상인데 생각할수록 그럴싸 하기도 하고, 한국에서도 되면 좋겠습니다.
+    comment: 그동안 못 해 봤던 발상인데 생각할수록 그럴싸하기도 하고, 한국에서도 되면 좋겠습니다.
 
   - title: 핀란드에서 250MWh 규모 ‘모래 배터리’ 건설 착수
     link: https://news.hada.io/topic?id=24690
@@ -120,5 +120,5 @@ readings:
 
   - title: 'The Good, the Bad, and the Leaky: jemalloc, bumpalo, and mimalloc in meilisearch'
     link: https://blog.kerollmops.com/the-good-the-bad-and-the-leaky-jemalloc-bumpalo-and-mimalloc-in-meilisearch
-    comment: 우리 프로그램 메모리 릭이 알고보니 얼로케이터 문제였더라~ 읽는 입장에선 재밌지만 찾는 입장에서는 힘들었겠습니다.
+    comment: 우리 프로그램 메모리 릭이 알고 보니 얼로케이터 문제였더라~ 읽는 입장에선 재밌지만 찾는 입장에서는 힘들었겠습니다.
 ---

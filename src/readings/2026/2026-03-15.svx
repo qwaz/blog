@@ -23,7 +23,7 @@ readings:
 
   - title: '초기 창업자가 알아야 할 보상(Comp) 전략: 깨도 되는 규칙과 지켜야 할 규칙'
     link: https://news.hada.io/topic?id=24039
-    comment: 저는 스톡을 주는 게 동기부여가 잘 되는 사람인 것 같은데, 주변에서는 스톡 줄거면 돈으로 주는게 낫다는 사람도 많이 보이고, 제가 지금까지 겪은 여러 다른 스타일의 사람들을 떠올리며 읽었습니다.
+    comment: 저는 스톡을 주는 게 동기부여가 잘 되는 사람인 것 같은데, 주변에서는 스톡 줄 거면 돈으로 주는 게 낫다는 사람도 많이 보이고, 제가 지금까지 겪은 여러 다른 스타일의 사람들을 떠올리며 읽었습니다.
 
   - title: 'Board: The first ever face-to-face game console designed to bring everyone together'
     link: https://board.fun/
@@ -39,7 +39,7 @@ readings:
 
   - title: The profitable startup
     link: https://linear.app/now/the-profitable-startup
-    comment: Linear가 우리는 투자금 태우면서 달리는게 아니라 흑자 내면서 운영했다고 자랑(?) 하는 글인데 한 번쯤 읽어볼 만한 것 같습니다.
+    comment: Linear가 우리는 투자금 태우면서 달리는 게 아니라 흑자 내면서 운영했다고 자랑(?) 하는 글인데 한 번쯤 읽어볼 만한 것 같습니다.
 
   - title: Is Your Bluetooth Chip Leaking Secrets via RF Signals?
     link: https://eprint.iacr.org/2025/559
@@ -59,7 +59,7 @@ readings:
 
   - title: Why we migrated from Python to Node.js
     link: https://blog.yakkomajuri.com/blog/python-to-node
-    comment: X에도 몇 번 썼지만 파이썬 async 너무 어렵습니다. 해당 글은 Python 보다는 Django 환경에만 해당하는 문제도 좀 보이긴 합니다.
+    comment: X에도 몇 번 썼지만 파이썬 async 너무 어렵습니다. 해당 글은 Python보다는 Django 환경에만 해당하는 문제도 좀 보이긴 합니다.
 
   - title: 왜 똑똑한 사람들은 더 행복하지 않을까?
     link: https://news.hada.io/topic?id=24183
@@ -67,11 +67,11 @@ readings:
 
   - title: Someone’s Been Messing With My Subnormals!
     link: https://moyix.blogspot.com/2022/09/someones-been-messing-with-my-subnormals.html?m=1
-    comment: moyix 교수님이 말아주는 '대체 어떤 라이브러리가 내 fastmath flag를 켰을까' 탐사 썰입니다. Dry-run을 해도 setup.py를 실행시키는 Python의 footgun이 인상깊었습니다.
+    comment: moyix 교수님이 말아주는 '대체 어떤 라이브러리가 내 fastmath flag를 켰을까' 탐사 썰입니다. Dry-run을 해도 setup.py를 실행시키는 Python의 footgun이 인상 깊었습니다.
 
   - title: How we rebuilt Next.js with AI in one week
     link: https://blog.cloudflare.com/vinext/
-    comment: 요즘 많이 보이는 AI 써서 X를 일주일만에 재구현하기 글의 Cloudflare 버전입니다. AI가 몇 달 만에 소프트웨어 개발의 근간을 상당히 바꿔버리고 있는데, 그런 소식 따라 잡는 용도로 한 번 읽어볼 만합니다.
+    comment: 요즘 많이 보이는 AI 써서 X를 일주일 만에 재구현하기 글의 Cloudflare 버전입니다. AI가 몇 달 만에 소프트웨어 개발의 근간을 상당히 바꿔버리고 있는데, 그런 소식 따라잡는 용도로 한 번 읽어볼 만합니다.
 
   - title: Couldn't really resist the urge to say something about Anthropic Claude Code Security.
     link: https://www.linkedin.com/posts/fabio-gritti-359428297_couldnt-really-resist-the-urge-to-say-something-activity-7431785697986097152-SnKj/
@@ -83,19 +83,19 @@ readings:
 
   - title: 'AI 시대, TypeScript의 부상: 수석 설계자 Anders Hejlsberg의 통찰'
     link: https://news.hada.io/topic?id=24265
-    comment: 요즘 팀에서도 TypeScript 쓰는데 TypeScript가 진짜 AI로 짜기 나쁘지 않은 언어 같다고 생각합니다. 근데 언어만 고르면 되는게 아니고 라이브러리랑 생태계도 잘 골라야 하긴 하더라구요.
+    comment: 요즘 팀에서도 TypeScript 쓰는데 TypeScript가 진짜 AI로 짜기 나쁘지 않은 언어 같다고 생각합니다. 근데 언어만 고르면 되는 게 아니고 라이브러리랑 생태계도 잘 골라야 하긴 하더라구요.
 
   - title: 예상치 못한 존재들이 ‘사람’으로 간주되는 사례들
     link: https://news.hada.io/topic?id=24285
-    comment: "'법인'이라는 단어에 사람 인자를 쓰신다는 것을 알고 계시나요? 선박, 강, 신이 법인이 될 수 있는 세계의 흥미로운 법들을 소개합니다."
+    comment: "'법인'이라는 단어에 사람 인자를 쓴다는 것을 알고 계시나요? 선박, 강, 신이 법인이 될 수 있는 세계의 흥미로운 법들을 소개합니다."
 
   - title: Welcome to iammarkzuckerg.com
     link: https://iammarkzuckerberg.com/
-    comment: 변호사 마크 주커버그 씨의 웹사이트이자, 다른 사람들이 이 분을 동명이인으로 착각해 겪은 흥미로운 사례 모음집입니다.
+    comment: 변호사 마크 주커버그 씨의 웹사이트이자, 다른 사람들이 이분을 동명이인으로 착각해 겪은 흥미로운 사례 모음집입니다.
 
   - title: FFmpeg, 구글에 “자금 지원하든가 버그 제보를 중단하라” 요구
     link: https://news.hada.io/topic?id=24307
-    comment: 양쪽 입장이 다 이해가 가는 한 편, 저는 기업들이 오픈소스에 돈을 더 쓸 필요가 있다고 생각하지만 그걸 강하게 유도할 수 있는 좋은 방법이 무엇인지는 잘 모르겠습니다. 요즘은 일정 규모 이상의 회사에서 사용하려면 돈을 내야 한다는 대안 라이선스들이 좀 보이기도 하더라구요.
+    comment: 양쪽 입장이 다 이해가 가는 한편, 저는 기업들이 오픈소스에 돈을 더 쓸 필요가 있다고 생각하지만 그걸 강하게 유도할 수 있는 좋은 방법이 무엇인지는 잘 모르겠습니다. 요즘은 일정 규모 이상의 회사에서 사용하려면 돈을 내야 한다는 대안 라이선스들이 좀 보이기도 하더라구요.
 
   - title: GLP-1 Drugs Linked to Dramatically Lower Death Rates in Colon Cancer Patients
     link: https://today.ucsd.edu/story/glp-1-drugs-linked-to-dramatically-lower-death-rates-in-colon-cancer-patients
@@ -107,7 +107,7 @@ readings:
 
   - title: Partnering with Mozilla to improve Firefox’s security
     link: https://www.anthropic.com/news/mozilla-firefox-security
-    comment: Anthropic에서 이번에는 Firefox를 타게팅해 22개의 브라우저 버그를 찾았다는 소식입니다. 다음엔 무슨 소식일까 기대도 되는 한 편 요즘 진짜 AI 밥그릇 문제가 보안 엔지니어 코앞까지 다가온 것 같아 두렵습니다.
+    comment: Anthropic에서 이번에는 Firefox를 타게팅해 22개의 브라우저 버그를 찾았다는 소식입니다. 다음엔 무슨 소식일까 기대도 되는 한편 요즘 진짜 AI 밥그릇 문제가 보안 엔지니어 코앞까지 다가온 것 같아 두렵습니다.
 
   - title: A GitHub Issue Title Compromised 4,000 Developer Machines
     link: https://grith.ai/blog/clinejection-when-your-ai-tool-installs-another
@@ -119,7 +119,7 @@ readings:
 
   - title: “내 마음은 극우인데, 조금 혼란스러워” 10대 우경화의 진실은?
     link: https://www.sisain.co.kr/news/articleView.html?idxno=57176
-    comment: 저 학창시절에도 재미로 일베밈을 쓰는 학우들이 많았는데요, 아직도 비슷한 현상이 있는 것 같고 실제로 청년 우경화에도 알게 모르게 영향을 미치는 것 같아서 걱정도 되고, 그렇지만 실제로 진지한 토론의 장을 원하는 학생들도 많다고 하니 조금씩 더 나은 방향으로 바뀔 수 있을 것 같은 희망도 보이고 그랬습니다.
+    comment: 저 학창 시절에도 재미로 일베밈을 쓰는 학우들이 많았는데요, 아직도 비슷한 현상이 있는 것 같고 실제로 청년 우경화에도 알게 모르게 영향을 미치는 것 같아서 걱정도 되고, 그렇지만 실제로 진지한 토론의 장을 원하는 학생들도 많다고 하니 조금씩 더 나은 방향으로 바뀔 수 있을 것 같은 희망도 보이고 그랬습니다.
 
   - title: 민주당 1인1표제의 미래··· 국민의힘을 보라?
     link: https://www.sisain.co.kr/news/articleView.html?idxno=57306
@@ -135,7 +135,7 @@ readings:
 
   - title: When Using AI Leads to “Brain Fry”
     link: https://hbr.org/2026/03/when-using-ai-leads-to-brain-fry
-    comment: AI가 생산성을 올려주긴 하지만, 사람을 노동에서 해방시킬 것이라는 초기의 기대와는 달리, 소프트웨어 엔지니어링에서는 유의하지 않으면 스스로를 더 빨리, 더 많이 일하는 방식으로 만들어 부작용이 생기기도 합니다. 본 기사에서는 AI를 활용할 때 번아웃과 별도로 발생하는 정신적 피로감에 대한 연구 사례를 소개합니다. 핵심 내용과는 별개로 중간에 잠깐 'AI 툴을 동시에 굴릴 때 평균적으로 세 개까지는 생산성이 올라가더라'라는 결과가 나오는 걸 보고 저는 아직 멀었구나 생각했습니다. (복잡한 거 할 땐 1개, 쉬운거 할 땐 2개까지 되는 것 같습니다)
+    comment: AI가 생산성을 올려주긴 하지만, 사람을 노동에서 해방시킬 것이라는 초기의 기대와는 달리, 소프트웨어 엔지니어링에서는 유의하지 않으면 스스로를 더 빨리, 더 많이 일하는 방식으로 만들어 부작용이 생기기도 합니다. 본 기사에서는 AI를 활용할 때 번아웃과 별도로 발생하는 정신적 피로감에 대한 연구 사례를 소개합니다. 핵심 내용과는 별개로 중간에 잠깐 'AI 툴을 동시에 굴릴 때 평균적으로 세 개까지는 생산성이 올라가더라'라는 결과가 나오는 걸 보고 저는 아직 멀었구나 생각했습니다. (복잡한 거 할 땐 1개, 쉬운 거 할 땐 2개까지 되는 것 같습니다)
 
   - title: 'Running Your Own ISP at Home Part.5 - How to Get a North Korea / Antarctica VPS (New Concept: Light Up the Globe)'
     link: https://blog.lyc8503.net/en/post/asn-5-worldwide-servers/
