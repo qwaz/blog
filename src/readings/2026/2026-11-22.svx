@@ -1,0 +1,220 @@
+---
+date: '2026-11-22'
+intro: >-
+  지난번에 올린 읽기 목록에는 당시 기준 10개월 정도 기술 뉴스 리뷰가 밀려 있었는데요, 일일 뉴스를 읽는 건 포기하고 긱뉴스의 위클리 요약을 이용해
+  열심히 따라잡아서 드디어 기술 뉴스 목록이 현실 시간을 따라잡았습니다. 원래 자투리 시간에 독서를 많이 하다가 회사 일이 바쁘고 다른 것들이 밀리면서
+  독서도 1년 정도 멈춰 있었는데, 이번 사이클에 독서도 다시 시작했습니다.
+
+readings:
+  - title: 'From research to reality: An interview with Microsoft VP of Security Research Taesoo Kim'
+    link: https://commandline.microsoft.com/taesoo-kim-interview-mdash-security-research/
+    comment: 연초에 마이크로소프트로 이직했는데요, 이제 공식적으로 FORGE Lab이라는 팀 이름이 생겼습니다. 저희 팀에서 어떤 일들을 하는지 궁금하시면 한 번 읽기를 추천합니다.
+
+  - title: Introducing Ghost Cut - or why Cut & Paste is broken everywhere
+    link: https://ishmael.textualize.io/blog/ghost-cut/
+    comment: 복사-붙여넣기라는 모두가 사용해 온 UX에 대한 신선한 대안입니다. 괜찮은 제안인 것 같아서 더 많은 곳에서 보고 싶네요. 엑셀 등은 이미 이렇게 동작하죠.
+
+  - title: rust-lang/rust is adopting an LLM policy
+    link: https://blog.rust-lang.org/inside-rust/2026/08/05/rust-langrust-is-adopting-an-llm-policy/
+    comment: Rust에도 LLM Policy가 생겼습니다. 여러 입장을 고려한 현실적인 절충안 같아서 한 번쯤 읽어 볼 만합니다. LLM 사용에 조금은 보수적인 쪽으로 기준이 잡혀 있습니다.
+
+  - title: 'The Future is for Everyone: The Path to a Positive AI Future'
+    link: https://www.meta.com/thefutureisforeveryone/
+    comment: 마크 주커버그 선생님의 AI와 함께하는 미래 희망편입니다. 살짝 과장되었다 느끼는 부분도 있었지만 저는 낭만과 꿈을 얘기하는 사람들을 좋아합니다.
+
+  - title: "DEFCON 34: Vie's Retrospective"
+    link: https://jamvie.net/posts/2026/08/defcon-34-vies-retrospective/
+    comment: 대회로서의 CTF 너머, 커뮤니티로서 사람을 연결하는 CTF의 추억에 대해 얘기하는 가슴 따뜻한 글이었습니다. 제가 대학 시절 알고리즘 대회를 하다가 보안에 집중하게 된 계기도 함께 밤새우고 문제 푸는 경험이 좋았던 것의 영향이 커서 마음에 많이 와닿았던 글입니다.
+
+  - title: 작업을 공개하면 행운이 따른다
+    link: https://news.hada.io/topic?id=25406
+    comment: 자기 일을 열심히 하는 것뿐만 아니라, 그걸 알리고 행운의 표면적을 넓히는 일의 중요성을 말하고 있습니다. 한편으로는 최근 프론티어 AI 회사에 연구 성과를 새치기 당하는 수학자들의 사례를 보며, 포스트 AI 시대에는 자신의 일을 알리라는 조언이 달라질지 궁금해집니다. 사람들이 이런 걱정 때문에 멋진 작업을 숨기는 미래가 찾아올 수 있다는 가능성에는 아쉽고 화가 납니다.
+
+  - title: Rewriting Bun in Rust
+    link: https://bun.com/blog/bun-in-rust
+    comment: Bun 규모의 재작성을 수행하기로 한 결정, 실행 과정, 그리고 LLM의 발전 속도 전부 놀라웠습니다. LLM으로 대규모 리팩터링을 수행할 때 신경 써야 할 점에 관한 교훈도 많은 좋은 포스트였습니다.
+
+  - title: 'GLM-5.3: Frontier Coding with Emergent Cyber Capabilities'
+    link: https://z.ai/blog/glm-5.3
+    comment: 오픈모델 성능 발전이 놀랍고, 모델들의 사이버 보안 발전 속도가 너무 빨라서 무섭습니다. 1년 전만 해도 보안 연구자와 AI 모델 사이의 보안 역량 차이가 꽤 보였는데, 지금은 정말 세계 최고 연구자만큼 잘한다고 느껴집니다.
+
+  - title: 아고다파인더
+    link: https://agodafinder.com/
+    comment: 아고다에서 매물을 찾고 여기 넣으면 다양한 CID를 비교해서 저렴한 조합을 찾아주는 사이트입니다. 여행할 때 유용해 보여서 저장해 두었습니다.
+
+  - title: VMs won't contain cyber-capable agents
+    link: https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/
+    comment: 최신 LLM 모델이 VM/컨테이너를 별다른 감독 없이 탈출할 수 있을 정도로 강력하다는 것을 보여주는 사례입니다.
+
+  - title: The Hugging Face incident and the road ahead
+    link: https://openai.com/index/hugging-face-incident-and-the-road-ahead/
+    comment: 이제는 너무 유명해진 OpenAI의 Hugging Face 사건입니다. GPT 6 모델들 쓸 때 글도 코드도 이상하게 쓰고 자기들끼리 얘기할 때는 사람 말도 안 쓰고 해서 사용할 때 종종 답답한데, Hugging Face 해킹 사건도 그렇고 OpenAI에서 모델 정렬에 실패하고 있다는 우려가 있습니다.
+
+  - title: Protecting your time from predators in large tech companies
+    link: https://www.seangoedecke.com/predators/
+    comment: 대기업에서 일할 때는 정신을 바짝 차리고 시간을 뺏기지 않도록 주의해야 합니다.
+
+  - title: I miss thinking hard.
+    link: https://www.jernesto.com/articles/thinking_hard
+    comment: "I Miss Thinking Hard (...) By “thinking hard,” I mean encountering a specific, difficult problem and spending multiple days just sitting with it to overcome it. (...) Yes, I blame AI for this."
+
+  - title: 'Astra for Coding: Why Are We Doing This Again?'
+    link: https://lucumr.pocoo.org/2026/9/7/astra-why/
+    comment: Astra를 자율 코딩 태스크에 사용하며 만족스럽지 않았던 경험을 공유하는 글입니다. 저도 GPT 6 계열 모델들이 말도 이상하게 하고 코드도 이상하게 짜고 해서 쓰면서 계속 스트레스 받습니다. 잘할 때 고점은 높은데 저점이 너무 낮아서 잘 안 쓰게 됩니다.
+
+  - title: What will our economic future look like?
+    link: https://www.anthropic.com/institute/econ-scenarios
+    comment: AI 시대 경제가 어떻게 될 것인지에 대한 Anthropic의 보고서입니다. 여러 가지 가능성 중 AI가 사회 경제에 부정적 영향을 미칠 수 있다는 비관적 시나리오가 여러 언론의 주목을 받았었고, 저도 그 확률이 무시할 수 없을 정도라 생각해 정부와 국가 차원에서 그렇게 되지 않도록 준비하고 예방하는 것이 매우 중요하다고 생각합니다.
+
+  - title: AI 시대, 역사상 처음으로 인간 지능 퇴보할 위기
+    link: https://www.sisain.co.kr/news/articleView.html?idxno=58430
+    comment: AI가 다음 세대의 학습에 미칠 영향이 많이 걱정됩니다. 당장 저조차도 AI 때문에 새로운 것을 잘 배우려 하지 않는 것이 느껴지는데, 더 배울 게 많은 상황에서는 정말 악영향이 많을 것 같습니다.
+
+  - title: An alignment assessment of recent cybersecurity incidents
+    link: https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents
+    comment: 'OpenAI: 저희 모델이 해킹을 했습니다. Anthropic: 사실 저희 모델도 했습니다.'
+
+  - title: We Must Pace the Frontier
+    link: https://darioamodei.com/post/we-must-pace-the-frontier
+    comment: 많은 주목과 다양한 의견을 모았던 Dario Amodei의 AI 개발 속도를 늦추자는 주장입니다. Anthropic이 확실히 프론티어 AI랩 중에서는 위험 관리와 모델 정렬을 제일 신경 쓰고 잘한다고 느껴집니다.
+
+  - title: 14 More lessons from 14 years at Google
+    link: https://addyo.substack.com/p/14-more-lessons-from-14-years-at
+    comment: 회사 내/팀 간 소통에 대한 다양한 짧은 조언들입니다.
+
+  - title: 한 나라의 인터넷을 마비시킨 건 75세 할머니 한 명
+    link: https://maily.so/pepper.note/posts/2nznq1d6zp5
+    comment: 국경에서 삽질을 하다가 인터넷을 마비시킨 할머니 이야기입니다. Spade Hacker라는 이명 멋있네요.
+
+  - title: The machines are fine. I'm worried about us.
+    link: https://ergosphere.blog/posts/the-machines-are-fine/
+    comment: AI가 학계의 훈련 과정에 미치고 있는 영향에 대한 고찰입니다. 비단 학계뿐 아니라 인간의 생각과 성취에 대한 근본적인 것을 바꾸고 있다고 생각해서 요즘 걱정이 많은 주제입니다.
+
+  - title: Copy Fail
+    link: https://copy.fail/
+    comment: '"roots every Linux distribution shipped since 2017"'
+
+  - title: A Deep Dive into Email Addresses
+    link: https://lasans.blog/articles/misc/email-addresses-deep-dive/
+    comment: 이메일 스키마에 대한 여러 가지 사례 소개인데, 북마크해 두고 한 번쯤 읽어 볼 만합니다.
+
+  - title: AI가 두 취약점 문화를 깨뜨리고 있다
+    link: https://news.hada.io/topic?id=29307
+    comment: AI로 인해 취약점이 무기화되는 시간이 짧아지면서, 취약점 공개와 대응의 어려움이 더 커지고 있습니다.
+
+  - title: Behind the Scenes Hardening Firefox with Claude Mythos Preview
+    link: https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/
+    comment: 에이전트로 버그를 찾는 하네스를 어떻게 설계하면 좋은지에 대한 Firefox의 사례입니다.
+
+  - title: 코드 작성에 쓰는 AI 코딩 에이전트는 반드시 유지보수 비용을 줄여야 함
+    link: https://news.hada.io/topic?id=29399
+    comment: 똑같은 버그 밀도로 코딩 속도만 10배 빨라지면 버그도 10배 많아지게 됩니다.
+
+  - title: Datatype - 텍스트를 차트로 변환하는 가변 폰트
+    link: https://news.hada.io/topic?id=29640
+    comment: 폰트 사이즈와 가변 축으로 그래프를 렌더링합니다. 결과물이 귀엽네요.
+
+  - title: 취향(taste)을 갖춘 30배 AI 엔지니어가 되는 법
+    link: https://news.hada.io/topic?id=30338
+    comment: "취향"을 두 구현 중 어느 쪽이 더 나은지 느끼는 능력, 다음에 무엇을 만들지 아는 능력, 나중에 중요해질 것을 예측할 수 있는 능력으로 정의하고 이 능력들이 왜 대 AI 시대에 중요한지를 논합니다.
+
+  - title: A UAF turned RCE (curl)
+    link: https://daniel.haxx.se/blog/2026/10/14/a-uaf-turned-rce/
+    comment: Curl에서 UAF를 통해 RCE까지 달성하는 예시입니다. 사용자가 공격자 서버에 접속해야 한다는 제약 조건이 있지만 쿨한 버그네요.
+
+  - title: 'Ponytail: Makes your AI agent think like the laziest senior dev in the room'
+    link: https://github.com/DietrichGebert/ponytail
+    comment: 저도 과거에 동그란 안경을 쓰고 머리를 기르고 남의 코드에 훈수를 많이 뒀기 때문에 설명이 괜히 찔리더라고요.
+
+  - title: 사람이 유지보수할 것처럼 코드를 작성하라
+    link: https://news.hada.io/topic?id=31307
+    comment: 사람이 코드를 읽어야 하는가 아니면 읽지 않아도 되는가에 대해 의견이 많이 갈리는데, 저는 여러 가지 시도하다가 훑는 수준이라도 읽어야 한다 파로 정착했습니다.
+
+  - title: 책을 더 많이 읽는 방법
+    link: https://news.hada.io/topic?id=31382
+    comment: 예전에는 저도 자투리 독서를 많이 하다가 1년 정도 독서를 못했는데, 이번 읽기 목록 정리를 마치면 다시 독서를 시도해 보려고 합니다.
+
+  - title: 16 little UI design tips that make a big impact
+    link: https://www.adhamdannaway.com/blog/ui-design/ui-design-tips
+    comment: AI가 만든 결과물이 맘에 안 드는데 정확히 어떻게 요구해야 할지 모르겠을 때 좋은 예시가 되어줄 수 있는 글입니다.
+
+  - title: DeepSeek, 미중 AI 격차 관련 발언 유출후 투자 유치 중단 (녹취록)
+    link: https://news.hada.io/topic?id=31833
+    comment: 저는 낭만을 얘기하는 사람들이 좋습니다. AI를 통해 인류에 긍정적으로 기여하겠다는 마음이 특히 좋았고, AI 회사들 간의 관계에 대한 통찰도 읽어 볼 만합니다. "중국과 미국의 AI 인재는 본질적으로 같은 중국인 인재 풀에서 나옴" 같은 발언에서는 정말 대륙의 기상이 느껴지는데 틀린 말도 아니라서 부러울 따름입니다.
+
+  - title: PHP2Shell
+    link: https://www.php2shell.com/
+    comment: 버그 임팩트가 엄청 커서 이슈가 많이 되었고, 개인적으로는 앞으로는 OOM 조건에서 트리거 가능한 버그도 다시 보자는 교훈을 얻었습니다.
+
+  - title: AI가 소프트웨어 엔지니어링의 중산층을 없애고 있음
+    link: https://news.hada.io/topic?id=32441
+    comment: AI 시대에 코드의 저점이 낮아져서 저도 코드 짤 때 화가 많아졌습니다.
+
+  - title: Claude reveals ECDSA curve origins
+    link: https://www.anthropic.com/research/ecdsa-curve-origins
+    comment: ECDSA 암호의 시드가 어떻게 생성되었는지를 Claude가 밝혀냈습니다.
+
+  - title: LLMs are making formal software verification feasible at a much larger scale
+    link: https://www.anthropic.com/research/formal-verification
+    comment: 123개의 OSS-Fuzz 라이브러리의 239개의 엔트리포인트에 대해, 64 MB 이하의 인풋에 대해 크래시하지 않음을 증명했다고 합니다. 하지만 formally verified 된 소프트웨어에서도 꼭 구멍이 발견되곤 하던데 이번 작업 이후의 결론은 어떻게 될지 지켜봐야겠습니다.
+
+  - title: 뉴스 읽기는 담배 피우는 것과 같다
+    link: https://news.hada.io/topic?id=32862
+    comment: 기술 뉴스를 열심히 읽다 화들짝 놀라 열어보았는데 그런 뉴스 말고 사건 사고 소식에 더 가까운 내용이었습니다. 내가 어느 정보에 노출되는지를 통제해서 내 감정과 정신 에너지를 관리하자는 개념은 새겨둘 만한 조언입니다.
+
+  - title: 'The Last Proof of Human Craft: Forging a Microsoft Edge Full Chain with Logic Bugs Only!'
+    link: https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/
+    comment: AI와 대 메모리 안정성 버그의 시대에 손으로 깎은 로직 버그만 사용한 엣지 브라우저 풀체인입니다.
+
+  - title: 'Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines'
+    link: https://projectzero.google/2026/10/fuzzing-v-AI.html
+    comment: 퍼저와 LLM 기반 버그 탐색기의 특징을 비교합니다. 소개된 사례 비교가 흥미롭습니다.
+
+  - title: LLMs can natively read & write neural network weights
+    link: https://rikiyat.github.io/blog/weight-space-programming/
+    comment: 최신 모델(GPT 6 Astra)이 학습이나 파인튜닝을 진행하지 않고 가중치를 직접 수정하는 방식으로 모델의 성능을 개선하는 사례를 소개합니다.
+
+  - title: 모두가 제정신을 잃었다
+    link: https://news.hada.io/topic?id=33862
+    comment: 글이 약간 지나치게 비관적인 감은 있습니다만, AI의 발전이 인류에게 긍정적인 방향으로 향하기 위해서 생각해 보아야 할 좋은 질문들을 던집니다.
+
+  - title: Agents in Games
+    link: https://labs.ycombinator.com/projects/games/index.html
+    comment: Claude와 GPT 모델들을 마인크래프트 환경에 풀어두고 어떻게 행동하는지를 관찰한 재미있는 사례연구입니다.
+
+  - title: Why We're Building Muse
+    link: https://x.com/alexandr_wang/status/2103551714536439951
+    comment: 다시 한 번, 저는 낭만을 얘기하는 사람들이 좋습니다. 더 많은 사람들이 자신의 꿈을 말하고 이루는 것을 돕고 싶다는 비전이 참 울림이 있네요.
+
+  - title: 계속 승진하는 것이 좋은 커리어일까?
+    link: https://news.hada.io/topic?id=34397
+    comment: 제가 연초에 이직을 한 가장 큰 동기 중 하나가 팀장 역할에서 다시 엔지니어링을 하고 싶어서였는데요, 비슷한 사례라 흥미롭게 읽었습니다. 저도 계속 승진하고 싶지는 않고 적당히 허리 라인 정도에 있는 게 제 행복을 위한 길인 것 같습니다.
+
+  - title: Bug Finding Considered Harmful?
+    link: https://alperenkeles.com/posts/bug-finding-considered-harmful/
+    comment: 버그를 많이 찾으면 많이 찾을수록 더 좋은 걸까요? 버그를 고치는 것도 오픈소스 메인테이너의 한정된 자원을 사용하는 일이고, 버그를 리포팅하는 과정에서 고려해야 할 세심한 부분들을 논의합니다.
+
+  - title: 동네 치과의 AX전환기
+    link: https://arca.live/b/aihomelab/185810092
+    comment: 조작이라는 의심도 많긴 하지만 글은 재밌고 읽어 볼 만합니다. 글에 나오는 내용이 아주 불가능하지는 않은 시대가 되었기 때문에 조작이냐 아니냐 논란이 생기는 것일 테고, 저는 이 글이 간접적으로 세상이 변했다는 것을 보여주는 방식이 글의 진위 여부보다 재밌었습니다.
+
+  - title: 생각은 취미가 될 것이다
+    link: https://news.hada.io/topic?id=35259
+    comment: 과연 정말로 생각은 여가활동이 될지, 그것이 인류에게 있어서 바람직한 방향일지 더 많은 논의와 대비가 필요하다고 생각합니다. AI를 사용하는 인류가 더 진보하더라도, 인류 자체가 퇴화한다면 그것을 진보라 할 수 있을까요?
+
+  - title: 가짜 통계 5만 페이지를 올렸더니 ChatGPT와 논문, 은행 보고서가 인용했다
+    link: https://news.hada.io/topic?id=35721
+    comment: 가짜 통계를 배포한다는 것이 윤리적으로 의심스러운 행동이긴 합니다만, 현재 AI가 진실을 잘 다루지 못하는 것을 잘 보여주는 사례라 생각합니다.
+
+  - title: 학자의 의무
+    link: https://news.hada.io/topic?id=36398
+    comment: 보안 연구를 하다 보면 세상에 영향을 미칠 지식을 먼저 알게 되는 경우가 있는데, 이 지식을 어떻게 전달하는 것이 사회에 도움이 되는가에 대해 생각할 거리를 던져 주는 글입니다.
+
+  - title: Discord, Electron을 버리고 RAM 사용량이 적은 새 앱으로 전환
+    link: https://news.hada.io/topic?id=36657
+    comment: Bun의 Rust 이주와 비슷하게 AI 시대 이전에는 생각하기 어려웠던 방식의 재작성입니다. AI가 소프트웨어 개발의 수명 주기를 크게 바꾼 흥미로운 사례였습니다.
+
+  - title: NIKKE PC 런처 침해 사고
+    link: https://news.hada.io/topic?id=36571
+    comment: 꽤나 큰 게임 해킹 사고가 터졌습니다. 영향 받은 사람이 많을 텐데 백도어 등은 없을지 걱정이네요.
+---
